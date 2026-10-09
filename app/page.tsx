@@ -443,13 +443,13 @@ export default function Page() {
           className="px-5 py-20 md:py-28"
         >
           <div className="mx-auto max-w-3xl">
-            <div className="relative overflow-hidden rounded-[2rem] bg-card p-7 text-center shadow-[0_24px_70px_rgba(59,42,31,0.14)] ring-1 ring-primary/20 md:p-12">
+            <div className="relative overflow-hidden rounded-[2rem] bg-card p-7 text-center shadow-[0_24px_70px_rgba(59,42,31,0.14)] ring-1 ring-primary/20 sm:p-9 md:p-12">
               <div
                 aria-hidden="true"
                 className="absolute inset-x-0 top-0 h-1.5 bg-primary"
               />
 
-              <span className="inline-flex items-center rounded-full bg-butter px-4 py-2 text-[0.68rem] font-semibold tracking-[0.16em] text-foreground uppercase ring-1 ring-foreground/10">
+              <span className="inline-flex items-center rounded-full bg-butter px-4 py-2 text-[0.62rem] font-semibold tracking-[0.14em] text-foreground uppercase ring-1 ring-foreground/10 sm:text-[0.68rem] sm:tracking-[0.16em]">
                 Incluido en el proceso completo
               </span>
 
@@ -459,12 +459,14 @@ export default function Page() {
 
               <h2
                 id="sesion-title"
-                className="mx-auto mt-3 max-w-2xl font-serif font-soft text-[1.8rem] leading-[1.12] tracking-[-0.01em] text-balance sm:text-[2rem] md:text-4xl"
+                className="mx-auto mt-4 max-w-[18rem] font-serif font-soft text-[1.65rem] leading-[1.12] tracking-[-0.01em] text-balance sm:max-w-xl sm:text-[2rem] md:text-4xl"
               >
                 <span className="sm:hidden">
-                  Además de las 4 etapas, tenés
+                  Además de las 4 etapas,
                   <br />
-                  una sesión 1 a 1 conmigo.
+                  tenés una sesión 1 a 1
+                  <br />
+                  conmigo.
                 </span>
 
                 <span className="hidden sm:inline">
@@ -472,12 +474,12 @@ export default function Page() {
                 </span>
               </h2>
 
-              <p className="mx-auto mt-6 max-w-2xl text-base leading-[1.8] text-muted-foreground text-pretty md:text-lg">
-                Una sesión personalizada para conocer tu proceso y
-                profundizar en lo que estés atravesando.
+              <p className="mx-auto mt-6 max-w-2xl text-base leading-[1.75] text-muted-foreground text-pretty sm:text-lg">
+                Una sesión personalizada para conocer tu proceso y profundizar
+                en lo que estés atravesando.
               </p>
 
-              <p className="mx-auto mt-6 max-w-xl font-serif font-soft text-lg leading-snug text-foreground md:text-xl">
+              <p className="mx-auto mt-6 max-w-xl font-serif font-soft text-lg leading-[1.35] text-foreground sm:text-xl">
                 Esta sesión ya está incluida al acceder al proceso completo.
               </p>
 

@@ -103,29 +103,29 @@ export default function Page() {
           <div className="relative mx-auto max-w-4xl text-center">
             <Handwritten>despertar · integración · expansión</Handwritten>
 
-            <h1 className="mt-4 font-serif font-soft text-[3rem] leading-[0.98] text-balance text-[#3b2a1f] sm:text-[4rem] md:text-7xl">
-              Coherencia <span className="italic text-primary">Interior</span>
+            <h1 className="mt-4 font-serif font-soft text-[3.4rem] leading-[0.95] text-balance text-[#3b2a1f] sm:text-[4.5rem] md:text-7xl">
+              Coherencia{' '}
+              <span className="italic text-primary">Interior</span>
             </h1>
 
-            <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-3xl leading-[1.08] text-[#4d392b] text-balance md:text-5xl">
+            <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-[2rem] leading-[1.08] text-[#4d392b] text-balance sm:text-3xl md:text-5xl">
               El proceso que crea un{' '}
               <span className="italic text-primary">Puente</span> entre tu Ser
               interior y tu Vida.
             </h2>
 
-            <p className="mx-auto mt-7 max-w-3xl text-lg leading-[1.75] text-[#5b4737] text-balance md:text-xl">
+            <p className="mx-auto mt-8 max-w-3xl text-base leading-[1.8] text-[#5b4737] text-balance md:text-lg">
               Una gran transformación puede comenzar con herramientas simples y
               sostenibles en el Tiempo.
             </p>
 
-            <p className="mx-auto mt-5 max-w-2xl text-base leading-[1.8] text-muted-foreground text-balance md:text-lg">
+            <p className="mx-auto mt-5 max-w-2xl text-base leading-[1.8] text-[#5b4737] text-balance md:text-lg">
               No es necesario cambiar todo de un día para otro.
             </p>
 
-            <p className="mx-auto mt-5 max-w-3xl font-serif text-xl leading-[1.55] text-[#5b4737] text-balance md:text-2xl">
-              Cuando comprendés cómo funciona tu Ser en Profundidad te das
-              cuenta de que eso que te afectó tanto tiempo podría convertirse
-              en una herramienta poderosa.
+            <p className="mx-auto mt-7 max-w-3xl font-serif text-xl leading-[1.55] text-[#5b4737] text-balance md:text-2xl">
+              Cuando comprendés cómo funciona tu Ser, descubrís que eso que
+              tanto te afectó podría ser una herramienta poderosa.
             </p>
 
             <div className="mt-7 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
@@ -136,13 +136,23 @@ export default function Page() {
               <span>A tu ritmo</span>
             </div>
 
-            <CtaLink
-              href="/primera-etapa"
-              className="mt-9 w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
-              pulse
-            >
-              Comenzá de forma Gratuita
-            </CtaLink>
+            <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
+              <CtaLink
+                href="/primera-etapa"
+                className="w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
+                pulse
+              >
+                Comenzá de forma Gratuita
+              </CtaLink>
+
+              <a
+                href="#etapas"
+                className="inline-flex min-h-14 w-full items-center justify-center rounded-full border border-[#8e765d]/30 bg-transparent px-7 py-4 text-sm font-medium text-[#5b4737] transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/40 hover:bg-card sm:w-auto"
+              >
+                Conocer las 4 etapas
+                <span className="ml-2 text-base">→</span>
+              </a>
+            </div>
 
             <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground">
               Empezá por la primera etapa y experimentá el proceso desde
@@ -220,7 +230,7 @@ export default function Page() {
                 <a
                   key={stage.number}
                   href={`#etapa-${stage.number}`}
-                  className="group rounded-[1.5rem] border border-[#8e765d]/20 bg-card p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-[0_12px_30px_rgba(72,52,36,0.08)]"
+                  className="group rounded-[1.5rem] border border-[#8e765d]/20 bg-card p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-[0_12px_30px_rgba(72,52,36,0.08)]"
                 >
                   <span className="font-serif text-sm italic text-primary">
                     {stage.number}
@@ -262,7 +272,6 @@ export default function Page() {
                   id={`etapa-${stage.number}`}
                   className="group relative scroll-mt-24 overflow-hidden rounded-[2.25rem] border border-[#8e765d]/20 bg-[#f8f2e8] shadow-[0_14px_45px_rgba(72,52,36,0.06)] transition-all duration-500 hover:border-primary/30 hover:shadow-[0_20px_55px_rgba(72,52,36,0.09)]"
                 >
-                  {/* Textura orgánica de fondo */}
                   <div
                     aria-hidden="true"
                     className="pointer-events-none absolute -right-20 -top-20 size-64 rounded-full bg-primary/10 blur-3xl transition-transform duration-[1800ms] group-hover:scale-125"
@@ -273,7 +282,6 @@ export default function Page() {
                     className="pointer-events-none absolute -bottom-24 -left-24 size-72 rounded-full bg-[#d9c4a8]/20 blur-3xl transition-transform duration-[2200ms] group-hover:scale-110"
                   />
 
-                  {/* Número decorativo */}
                   <div
                     aria-hidden="true"
                     className="pointer-events-none absolute right-4 top-0 select-none font-serif text-[9rem] font-light leading-none text-primary/[0.055] sm:right-8 sm:text-[11rem]"
@@ -282,7 +290,6 @@ export default function Page() {
                   </div>
 
                   <div className="relative grid md:grid-cols-[170px_1fr]">
-                    {/* CABECERA */}
                     <div className="relative flex min-h-[150px] items-end border-b border-[#8e765d]/15 p-7 md:min-h-full md:items-start md:border-b-0 md:border-r md:p-8">
                       <div>
                         <span className="font-serif text-6xl italic leading-none text-primary/70 md:text-7xl">
@@ -303,7 +310,6 @@ export default function Page() {
                       </span>
                     </div>
 
-                    {/* CONTENIDO */}
                     <div className="relative p-7 sm:p-8 md:p-10">
                       <h3 className="max-w-2xl font-serif font-soft text-[2rem] leading-[1.08] text-balance text-[#3f3025] sm:text-[2.2rem] md:text-4xl">
                         {stage.title}
@@ -326,7 +332,6 @@ export default function Page() {
                         </div>
                       )}
 
-                      {/* PUNTOS */}
                       <ul className="mt-8 space-y-2">
                         {stage.points.map((point, pointIndex) => (
                           <li
@@ -528,10 +533,7 @@ export default function Page() {
                 Coherencia Interior · 4 etapas · online
               </p>
 
-              <CtaLink
-                href={HOTMART_URL}
-                className="mt-7 w-full"
-              >
+              <CtaLink href={HOTMART_URL} className="mt-7 w-full">
                 Continuar con Coherencia Interior
               </CtaLink>
             </div>

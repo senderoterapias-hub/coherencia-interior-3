@@ -144,6 +144,16 @@ export default function Page() {
               Comenzá de forma Gratuita
             </CtaLink>
 
+            <a
+              href="#etapas"
+              className="mx-auto mt-4 inline-flex min-h-11 items-center justify-center rounded-full border border-[#6f7a3d]/40 px-6 py-2.5 text-sm font-medium text-[#5b4737] transition-all duration-300 hover:border-primary hover:bg-primary/5 hover:text-primary"
+            >
+              Conocer las 4 etapas
+              <span aria-hidden="true" className="ml-2">
+                →
+              </span>
+            </a>
+
             <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground">
               Empezá por la primera etapa y experimentá el proceso desde
               adentro.

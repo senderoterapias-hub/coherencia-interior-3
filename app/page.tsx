@@ -113,22 +113,25 @@ export default function Page() {
               interior y tu Vida.
             </h2>
 
-            <p className="mx-auto mt-7 max-w-3xl text-lg leading-[1.75] text-[#5b4737] text-balance md:text-xl">
-              Una gran transformación puede comenzar con herramientas simples y
-              sostenibles en el Tiempo.
-            </p>
+            <div className="mx-auto mt-8 max-w-3xl">
+              <p className="text-lg leading-[1.7] text-[#5b4737] text-balance md:text-xl">
+                Una gran transformación puede comenzar con herramientas simples
+                y sostenibles en el Tiempo.
+              </p>
 
-            <p className="mx-auto mt-5 max-w-2xl text-base leading-[1.8] text-muted-foreground text-balance md:text-lg">
-              No es necesario cambiar todo de un día para otro.
-            </p>
+              <p className="mt-4 text-base leading-[1.7] text-muted-foreground text-balance md:text-lg">
+                No es necesario cambiar todo de un día para otro.
+              </p>
 
-            <p className="mx-auto mt-5 max-w-3xl font-serif text-xl leading-[1.55] text-[#5b4737] text-balance md:text-2xl">
-              Cuando comprendés cómo funciona tu Ser en Profundidad te das
-              cuenta de que eso que te afectó tanto tiempo podría convertirse
-              en una herramienta poderosa.
-            </p>
+              <p className="mx-auto mt-5 max-w-2xl font-serif text-xl leading-[1.45] text-[#5b4737] text-balance md:text-[1.55rem]">
+                Cuando comprendés cómo funciona tu Ser en{' '}
+                <span className="italic text-primary">Profundidad</span>, te
+                das cuenta de que eso que te afectó tanto tiempo podría
+                convertirse en una herramienta poderosa.
+              </p>
+            </div>
 
-            <div className="mt-7 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
               <span>4 etapas</span>
               <span aria-hidden="true">·</span>
               <span>Online</span>
@@ -136,23 +139,25 @@ export default function Page() {
               <span>A tu ritmo</span>
             </div>
 
-            <CtaLink
-              href="/primera-etapa"
-              className="mt-9 w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
-              pulse
-            >
-              Comenzá de forma Gratuita
-            </CtaLink>
+            <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
+              <CtaLink
+                href="/primera-etapa"
+                className="w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
+                pulse
+              >
+                Comenzá de forma Gratuita
+              </CtaLink>
 
-            <a
-              href="#etapas"
-              className="mx-auto mt-4 inline-flex min-h-11 items-center justify-center rounded-full border border-[#6f7a3d]/40 px-6 py-2.5 text-sm font-medium text-[#5b4737] transition-all duration-300 hover:border-primary hover:bg-primary/5 hover:text-primary"
-            >
-              Conocer las 4 etapas
-              <span aria-hidden="true" className="ml-2">
-                →
-              </span>
-            </a>
+              <a
+                href="#etapas"
+                className="inline-flex min-h-11 w-full items-center justify-center rounded-full border border-[#6f7a3d]/40 px-6 py-2.5 text-sm font-medium text-[#5b4737] transition-all duration-300 hover:border-primary hover:bg-primary/5 hover:text-primary sm:w-auto"
+              >
+                Conocer las 4 etapas
+                <span aria-hidden="true" className="ml-2">
+                  →
+                </span>
+              </a>
+            </div>
 
             <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground">
               Empezá por la primera etapa y experimentá el proceso desde

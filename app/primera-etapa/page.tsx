@@ -172,15 +172,20 @@ export default function PrimeraEtapaPage() {
 
               <h2
                 id="experimentar-title"
-                className="mt-3 font-serif font-soft text-[2.1rem] leading-[1.1] text-balance md:text-5xl"
+                className="mx-auto mt-3 max-w-2xl font-serif font-soft text-[2.1rem] leading-[1.08] text-balance md:text-5xl"
               >
-                La meditación
+                Acompañá tus días con esta Meditación Guiada
               </h2>
 
-              <p className="mx-auto mt-5 max-w-xl leading-[1.8] text-muted-foreground text-pretty md:text-lg">
-                Después de la clase, podés continuar con esta práctica.
-                Buscá un momento tranquilo y permitite experimentar sin apuro.
-              </p>
+              <div className="mx-auto mt-6 max-w-xl space-y-2 text-pretty text-muted-foreground md:text-lg">
+                <p className="leading-[1.8]">
+                  Después de la clase, podés continuar con esta práctica.
+                </p>
+
+                <p className="leading-[1.8]">
+                  Te recomiendo practicarla en la mañana y antes de ir a dormir.
+                </p>
+              </div>
 
               <div className="mx-auto mt-10 max-w-xl rounded-[1.75rem] bg-card/95 p-7 shadow-[0_18px_50px_rgba(59,42,31,0.08)] ring-1 ring-foreground/10 backdrop-blur-sm md:p-10">
                 <div className="mx-auto flex size-14 items-center justify-center rounded-full bg-butter">
@@ -214,7 +219,7 @@ export default function PrimeraEtapaPage() {
                 </audio>
 
                 <p className="mt-4 text-xs text-muted-foreground">
-                  Podés escucharla cuando quieras y volver a ella las veces que necesites.
+                  Podés volver a esta práctica cada vez que lo necesites.
                 </p>
               </div>
             </div>
@@ -238,10 +243,20 @@ export default function PrimeraEtapaPage() {
                 La bitácora
               </h2>
 
-              <p className="mx-auto mt-5 max-w-xl leading-[1.8] text-muted-foreground text-pretty md:text-lg">
-                La bitácora es un espacio para registrar lo que vas descubriendo,
-                poner en palabras tu experiencia y profundizar el proceso.
-              </p>
+              <div className="mx-auto mt-6 max-w-2xl space-y-3 text-pretty text-muted-foreground md:text-lg">
+                <p className="leading-[1.8]">
+                  La bitácora es un espacio para registrar lo que vas descubriendo,
+                  poner en palabras tu experiencia y profundizar el proceso.
+                </p>
+
+                <p className="leading-[1.8]">
+                  Te recomiendo descargarla luego de ver la clase y trabajar con ella durante la semana.
+                </p>
+
+                <p className="leading-[1.8]">
+                  Te ayudará a ser más consciente de tus propios procesos internos.
+                </p>
+              </div>
 
               <div className="mx-auto mt-10 max-w-2xl overflow-hidden rounded-[1.75rem] bg-card/95 shadow-[0_18px_50px_rgba(59,42,31,0.08)] ring-1 ring-foreground/10 backdrop-blur-sm">
                 <div className="h-56 bg-background md:h-64">
@@ -283,21 +298,35 @@ export default function PrimeraEtapaPage() {
       </div>
 
       {/* ACOMPAÑAMIENTO */}
-      <section aria-labelledby="contacto-title" className="px-5 pb-8 pt-12 md:pb-12 md:pt-16">
+      <section
+        aria-labelledby="contacto-title"
+        className="px-5 pb-8 pt-12 md:pb-12 md:pt-16"
+      >
         <div className="mx-auto max-w-2xl rounded-[2rem] bg-card p-8 text-center shadow-[0_18px_50px_rgba(59,42,31,0.08)] ring-1 ring-foreground/5 md:p-12">
           <Handwritten>si querés compartirlo</Handwritten>
 
-          <h2 id="contacto-title" className="mt-3 font-serif font-soft text-[2.1rem] leading-[1.1] text-balance md:text-5xl">
-            ¿Estás dando este paso y querés contarme cómo te sentís?
+          <h2
+            id="contacto-title"
+            className="mt-3 font-serif font-soft text-[2.1rem] leading-[1.1] text-balance md:text-5xl"
+          >
+            ¿Estás dando este paso y tenés dudas?
           </h2>
 
-          <p className="mx-auto mt-6 max-w-xl leading-[1.8] text-muted-foreground text-pretty md:text-lg">
-            Podés escribirme. No necesitás tener claro qué te pasa ni saber exactamente qué preguntar.
-          </p>
+          <div className="mx-auto mt-6 max-w-xl space-y-4 text-pretty text-muted-foreground md:text-lg">
+            <p className="leading-[1.8]">
+              Podés escribirme.
+            </p>
 
-          <p className="mx-auto mt-5 max-w-xl font-serif text-xl leading-snug text-foreground md:text-2xl">
-            Estoy acá para escucharte y acompañarte en este primer paso.
-          </p>
+            <p className="leading-[1.8]">
+              El proceso de Coherencia Interior es mejor vivirlo acompañado.
+            </p>
+
+            <p className="leading-[1.8]">
+              Contame tus dudas. La idea es que, si decidís vivir el proceso completo,
+              seguiré acompañándote a través de WhatsApp e incluso podés acceder a
+              sesiones 1 a 1 donde profundizamos en tu proceso personal.
+            </p>
+          </div>
 
           <a
             href={FIRST_STAGE_WHATSAPP_URL}
@@ -305,7 +334,7 @@ export default function PrimeraEtapaPage() {
             rel="noopener noreferrer"
             className="mt-8 inline-flex min-h-14 w-full items-center justify-center rounded-full bg-primary px-7 py-4 text-base font-medium text-primary-foreground shadow-[0_3px_0_0_rgba(59,42,31,0.18)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#535e31] hover:shadow-[0_5px_0_0_rgba(59,42,31,0.18)] sm:w-auto"
           >
-            Contame cómo te sentís
+            Contactame aquí
           </a>
         </div>
       </section>

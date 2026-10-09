@@ -41,7 +41,8 @@ const stages = [
     ],
     quote:
       'No se trata de luchar contra quien fuiste. Se trata de dejar de vivir desde una identidad que ya cumplió su función, para que pueda nacer tu verdadero ser.',
-    closing: 'La transformación no tiene que ser un proceso doloroso. Puede ser simple y poderosa.',
+    closing:
+      'La transformación no tiene que ser un proceso doloroso. Puede ser simple y poderosa.',
   },
   {
     number: '03',
@@ -104,9 +105,9 @@ export default function Page() {
             </h1>
 
             <p className="mx-auto mt-7 max-w-3xl font-serif text-2xl leading-snug text-[#5b4737] text-balance md:text-3xl">
-              Un proceso para conocerte en profundidad y con simpleza,
-              liberarte, escucharte y comenzar a vivir desde una mayor
-              coherencia con quien realmente sos.
+              Un proceso para conocerte en profundidad y con simpleza, liberar
+              tus cadenas, desarrollar tu guía interna y comenzar a vivir desde
+              la coherencia y alineado con tu propósito.
             </p>
 
             <div className="mt-7 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">

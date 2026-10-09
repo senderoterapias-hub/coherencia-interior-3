@@ -86,7 +86,10 @@ export default function Page() {
 
       <main>
         {/* HERO */}
-        <section className="relative overflow-hidden px-5 pb-20 pt-16 md:pb-28 md:pt-24">
+        <section
+          id="inicio"
+          className="relative overflow-hidden px-5 pb-20 pt-16 md:pb-28 md:pt-24"
+        >
           <div
             aria-hidden="true"
             className="pointer-events-none absolute -right-32 top-10 size-72 rounded-full bg-[#eadcc6]/60 blur-3xl"
@@ -104,10 +107,25 @@ export default function Page() {
               Coherencia <span className="italic text-primary">Interior</span>
             </h1>
 
-            <p className="mx-auto mt-7 max-w-3xl font-serif text-2xl leading-snug text-[#5b4737] text-balance md:text-3xl">
-              Un proceso para conocerte en profundidad y con simpleza, liberar
-              tus cadenas, desarrollar tu guía interna y comenzar a vivir desde
-              la coherencia y alineado con tu propósito.
+            <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-3xl leading-[1.08] text-[#4d392b] text-balance md:text-5xl">
+              El proceso que crea un{' '}
+              <span className="italic text-primary">Puente</span> entre tu Ser
+              interior y tu Vida.
+            </h2>
+
+            <p className="mx-auto mt-7 max-w-3xl text-lg leading-[1.75] text-[#5b4737] text-balance md:text-xl">
+              Una gran transformación puede comenzar con herramientas simples y
+              sostenibles en el Tiempo.
+            </p>
+
+            <p className="mx-auto mt-5 max-w-2xl text-base leading-[1.8] text-muted-foreground text-balance md:text-lg">
+              No es necesario cambiar todo de un día para otro.
+            </p>
+
+            <p className="mx-auto mt-5 max-w-3xl font-serif text-xl leading-[1.55] text-[#5b4737] text-balance md:text-2xl">
+              Cuando comprendés cómo funciona tu Ser en Profundidad te das
+              cuenta de que eso que te afectó tanto tiempo podría convertirse
+              en una herramienta poderosa.
             </p>
 
             <div className="mt-7 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
@@ -120,10 +138,10 @@ export default function Page() {
 
             <CtaLink
               href="/primera-etapa"
-              className="mt-9 w-full sm:w-auto"
+              className="mt-9 w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
               pulse
             >
-              Comenzar gratuitamente
+              Comenzá de forma Gratuita
             </CtaLink>
 
             <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground">
@@ -176,6 +194,7 @@ export default function Page() {
 
         {/* MAPA DEL PROCESO */}
         <section
+          id="etapas"
           aria-labelledby="mapa-title"
           className="px-5 py-20 md:py-28"
         >
@@ -407,7 +426,7 @@ export default function Page() {
             <CtaLink
               href="/primera-etapa"
               variant="butter"
-              className="mt-9 w-full sm:w-auto"
+              className="mt-9 w-full shadow-[0_0_25px_rgba(255,255,255,0.16)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(255,255,255,0.28)] sm:w-auto"
             >
               Vivir la primera etapa gratuita
             </CtaLink>
@@ -424,7 +443,9 @@ export default function Page() {
           className="px-5 py-20 md:py-28"
         >
           <div className="mx-auto max-w-3xl text-center">
-            <Handwritten>si después sentís que querés profundizar</Handwritten>
+            <Handwritten>
+              si después sentís que querés profundizar
+            </Handwritten>
 
             <h2
               id="continuidad-title"
@@ -488,10 +509,10 @@ export default function Page() {
 
             <CtaLink
               href="/primera-etapa"
-              className="mt-9 w-full sm:w-auto"
+              className="mt-9 w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
               pulse
             >
-              Comenzar gratuitamente
+              Comenzá de forma Gratuita
             </CtaLink>
           </div>
         </section>

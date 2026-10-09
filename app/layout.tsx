@@ -19,14 +19,14 @@ const figtree = Figtree({
 })
 
 export const metadata: Metadata = {
-  title: 'Coherencia Interior — Quizás esto sea un llamado',
+  title: 'Coherencia Interior — Un camino hacia vos',
   description:
-    'Una primera experiencia para reconocer lo que está despertando en vos y comenzar a recorrer este proceso a tu ritmo.',
+    'Un proceso online para conocerte en profundidad, liberarte, escuchar tu voz interior y comenzar a vivir desde una mayor coherencia con quien realmente sos.',
   generator: 'v0.app',
   openGraph: {
     title: 'Coherencia Interior',
     description:
-      'Quizás esto que estás viviendo no es casualidad. Una primera experiencia para comenzar a reconocer lo que está despertando en vos.',
+      'Un proceso online para conocerte, liberarte, escucharte y comenzar a vivir desde una mayor coherencia con quien realmente sos.',
     locale: 'es_ES',
     type: 'website',
   },

@@ -103,29 +103,29 @@ export default function Page() {
           <div className="relative mx-auto max-w-4xl text-center">
             <Handwritten>despertar · integración · expansión</Handwritten>
 
-            <h1 className="mt-4 font-serif font-soft text-[3.4rem] leading-[0.95] text-balance text-[#3b2a1f] sm:text-[4.5rem] md:text-7xl">
-              Coherencia{' '}
-              <span className="italic text-primary">Interior</span>
+            <h1 className="mt-4 font-serif font-soft text-[3rem] leading-[0.98] text-balance text-[#3b2a1f] sm:text-[4rem] md:text-7xl">
+              Coherencia <span className="italic text-primary">Interior</span>
             </h1>
 
-            <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-[2rem] leading-[1.08] text-[#4d392b] text-balance sm:text-3xl md:text-5xl">
+            <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-3xl leading-[1.08] text-[#4d392b] text-balance md:text-5xl">
               El proceso que crea un{' '}
               <span className="italic text-primary">Puente</span> entre tu Ser
               interior y tu Vida.
             </h2>
 
-            <p className="mx-auto mt-8 max-w-3xl text-base leading-[1.8] text-[#5b4737] text-balance md:text-lg">
+            <p className="mx-auto mt-7 max-w-3xl text-lg leading-[1.75] text-[#5b4737] text-balance md:text-xl">
               Una gran transformación puede comenzar con herramientas simples y
               sostenibles en el Tiempo.
             </p>
 
-            <p className="mx-auto mt-5 max-w-2xl text-base leading-[1.8] text-[#5b4737] text-balance md:text-lg">
+            <p className="mx-auto mt-5 max-w-2xl text-base leading-[1.8] text-muted-foreground text-balance md:text-lg">
               No es necesario cambiar todo de un día para otro.
             </p>
 
-            <p className="mx-auto mt-7 max-w-3xl font-serif text-xl leading-[1.55] text-[#5b4737] text-balance md:text-2xl">
-              Cuando comprendés cómo funciona tu Ser, descubrís que eso que
-              tanto te afectó podría ser una herramienta poderosa.
+            <p className="mx-auto mt-5 max-w-3xl font-serif text-xl leading-[1.55] text-[#5b4737] text-balance md:text-2xl">
+              Cuando comprendés cómo funciona tu Ser en Profundidad te das
+              cuenta de que eso que te afectó tanto tiempo podría convertirse
+              en una herramienta poderosa.
             </p>
 
             <div className="mt-7 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
@@ -136,23 +136,13 @@ export default function Page() {
               <span>A tu ritmo</span>
             </div>
 
-            <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <CtaLink
-                href="/primera-etapa"
-                className="w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
-                pulse
-              >
-                Comenzá de forma Gratuita
-              </CtaLink>
-
-              <a
-                href="#etapas"
-                className="inline-flex min-h-14 w-full items-center justify-center rounded-full border border-[#8e765d]/30 bg-transparent px-7 py-4 text-sm font-medium text-[#5b4737] transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/40 hover:bg-card sm:w-auto"
-              >
-                Conocer las 4 etapas
-                <span className="ml-2 text-base">→</span>
-              </a>
-            </div>
+            <CtaLink
+              href="/primera-etapa"
+              className="mt-9 w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
+              pulse
+            >
+              Comenzá de forma Gratuita
+            </CtaLink>
 
             <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground">
               Empezá por la primera etapa y experimentá el proceso desde
@@ -197,7 +187,7 @@ export default function Page() {
             <Sparkle className="mx-auto mt-9 size-6 text-primary" />
 
             <p className="mx-auto mt-7 max-w-2xl font-serif text-xl leading-relaxed text-[#5b4737] md:text-2xl">
-              Comprensión - Liberación - Guía - Expansión
+              Comprenderte. Liberarte. Escucharte. Crear.
             </p>
           </div>
         </section>
@@ -230,7 +220,7 @@ export default function Page() {
                 <a
                   key={stage.number}
                   href={`#etapa-${stage.number}`}
-                  className="group rounded-[1.5rem] border border-[#8e765d]/20 bg-card p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-[0_12px_30px_rgba(72,52,36,0.08)]"
+                  className="group rounded-[1.5rem] border border-[#8e765d]/20 bg-card p-6 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-[0_12px_30px_rgba(72,52,36,0.08)]"
                 >
                   <span className="font-serif text-sm italic text-primary">
                     {stage.number}
@@ -270,112 +260,63 @@ export default function Page() {
                 <article
                   key={stage.number}
                   id={`etapa-${stage.number}`}
-                  className="group relative scroll-mt-24 overflow-hidden rounded-[2.25rem] border border-[#8e765d]/20 bg-[#f8f2e8] shadow-[0_14px_45px_rgba(72,52,36,0.06)] transition-all duration-500 hover:border-primary/30 hover:shadow-[0_20px_55px_rgba(72,52,36,0.09)]"
+                  className="scroll-mt-24 overflow-hidden rounded-[2rem] border border-[#8e765d]/20 bg-background"
                 >
-                  <div
-                    aria-hidden="true"
-                    className="pointer-events-none absolute -right-20 -top-20 size-64 rounded-full bg-primary/10 blur-3xl transition-transform duration-[1800ms] group-hover:scale-125"
-                  />
-
-                  <div
-                    aria-hidden="true"
-                    className="pointer-events-none absolute -bottom-24 -left-24 size-72 rounded-full bg-[#d9c4a8]/20 blur-3xl transition-transform duration-[2200ms] group-hover:scale-110"
-                  />
-
-                  <div
-                    aria-hidden="true"
-                    className="pointer-events-none absolute right-4 top-0 select-none font-serif text-[9rem] font-light leading-none text-primary/[0.055] sm:right-8 sm:text-[11rem]"
-                  >
-                    {stage.number}
-                  </div>
-
-                  <div className="relative grid md:grid-cols-[170px_1fr]">
-                    <div className="relative flex min-h-[150px] items-end border-b border-[#8e765d]/15 p-7 md:min-h-full md:items-start md:border-b-0 md:border-r md:p-8">
+                  <div className="grid md:grid-cols-[180px_1fr]">
+                    <div className="flex items-start justify-between border-b border-[#8e765d]/15 bg-[#eee5d7]/60 p-7 md:border-b-0 md:border-r md:p-8">
                       <div>
-                        <span className="font-serif text-6xl italic leading-none text-primary/70 md:text-7xl">
+                        <span className="font-serif text-5xl italic leading-none text-primary/70 md:text-6xl">
                           {stage.number}
                         </span>
 
-                        <div className="mt-5 flex items-center gap-3">
-                          <span className="h-px w-8 bg-primary/40" />
-
-                          <p className="text-[11px] font-semibold tracking-[0.2em] text-[#6f583f]">
-                            {stage.eyebrow}
-                          </p>
-                        </div>
+                        <p className="mt-5 text-xs font-semibold tracking-[0.18em] text-[#6f583f]">
+                          {stage.eyebrow}
+                        </p>
                       </div>
 
-                      <span className="absolute right-7 top-7 font-serif text-xs text-[#8e765d]/45 md:hidden">
-                        {String(index + 1).padStart(2, '0')} / 04
+                      <span className="font-serif text-sm text-[#8e765d]/50 md:hidden">
+                        {String(index + 1).padStart(2, '0')}/04
                       </span>
                     </div>
 
-                    <div className="relative p-7 sm:p-8 md:p-10">
-                      <h3 className="max-w-2xl font-serif font-soft text-[2rem] leading-[1.08] text-balance text-[#3f3025] sm:text-[2.2rem] md:text-4xl">
+                    <div className="p-7 md:p-10">
+                      <h3 className="font-serif font-soft text-[2rem] leading-[1.1] text-balance md:text-4xl">
                         {stage.title}
                       </h3>
 
-                      <p className="mt-6 max-w-2xl leading-[1.85] text-[#6b5b4d] text-pretty md:text-lg">
+                      <p className="mt-6 max-w-2xl leading-[1.8] text-muted-foreground text-pretty md:text-lg">
                         {stage.intro}
                       </p>
 
                       {stage.question && (
-                        <div className="relative mt-7 overflow-hidden rounded-2xl border border-primary/15 bg-primary/[0.045] px-5 py-5">
-                          <div
-                            aria-hidden="true"
-                            className="absolute -right-6 -top-8 size-20 rounded-full bg-primary/10 blur-2xl"
-                          />
-
-                          <p className="relative font-serif text-2xl italic leading-snug text-primary md:text-3xl">
-                            {stage.question}
-                          </p>
-                        </div>
+                        <p className="mt-7 font-serif text-2xl italic text-primary md:text-3xl">
+                          {stage.question}
+                        </p>
                       )}
 
-                      <ul className="mt-8 space-y-2">
-                        {stage.points.map((point, pointIndex) => (
+                      <ul className="mt-7 grid gap-3 sm:grid-cols-2">
+                        {stage.points.map((point) => (
                           <li
                             key={point}
-                            className="group/point relative flex items-start gap-4 rounded-2xl border border-[#8e765d]/10 bg-white/35 px-4 py-4 transition-all duration-300 hover:border-primary/20 hover:bg-white/55 sm:px-5 sm:py-4"
+                            className="flex gap-3 rounded-2xl bg-[#f4ecdf]/70 px-4 py-3 text-sm leading-relaxed text-[#5b4737] md:text-base"
                           >
                             <span
                               aria-hidden="true"
-                              className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full border border-primary/20 bg-primary/[0.07] font-serif text-sm text-primary transition-all duration-300 group-hover/point:scale-110 group-hover/point:border-primary/40 group-hover/point:bg-primary/10"
-                            >
-                              {String(pointIndex + 1).padStart(2, '0')}
-                            </span>
-
-                            <span className="pt-0.5 text-[15px] leading-[1.65] text-[#514034] sm:text-base">
-                              {point}
-                            </span>
+                              className="mt-2 size-1.5 shrink-0 rounded-full bg-primary"
+                            />
+                            <span>{point}</span>
                           </li>
                         ))}
                       </ul>
 
                       {stage.closing && (
-                        <div className="relative mt-9 rounded-[1.5rem] border border-primary/10 bg-[#efe5d6]/55 px-5 py-5 sm:px-6 sm:py-6">
-                          <span
-                            aria-hidden="true"
-                            className="absolute -top-2 left-6 font-serif text-2xl text-primary/50"
-                          >
-                            “
-                          </span>
-
-                          <p className="pt-2 max-w-2xl font-serif text-[1.05rem] leading-[1.65] text-[#5b4737] sm:text-lg">
-                            {stage.closing}
-                          </p>
-                        </div>
+                        <p className="mt-8 max-w-2xl leading-[1.8] text-muted-foreground text-pretty">
+                          {stage.closing}
+                        </p>
                       )}
 
                       {stage.quote && (
-                        <blockquote className="relative mt-9 border-l-2 border-primary/40 pl-5 font-serif text-xl leading-[1.4] text-[#4d3b2e] sm:pl-6 md:text-2xl">
-                          <span
-                            aria-hidden="true"
-                            className="absolute -left-2 -top-5 bg-[#f8f2e8] px-1 font-serif text-3xl text-primary/60"
-                          >
-                            “
-                          </span>
-
+                        <blockquote className="mt-8 border-l-2 border-primary/40 pl-5 font-serif text-xl leading-snug text-[#4d3b2e] md:text-2xl">
                           {stage.quote}
                         </blockquote>
                       )}
@@ -496,6 +437,57 @@ export default function Page() {
           </div>
         </section>
 
+        {/* SESIÓN 1 A 1 */}
+        <section
+          aria-labelledby="sesion-title"
+          className="px-5 py-20 md:py-28"
+        >
+          <div className="mx-auto max-w-3xl">
+            <div className="relative overflow-hidden rounded-[2rem] bg-card p-7 text-center shadow-[0_24px_70px_rgba(59,42,31,0.14)] ring-1 ring-primary/20 md:p-12">
+              <div
+                aria-hidden="true"
+                className="absolute inset-x-0 top-0 h-1.5 bg-primary"
+              />
+
+              <span className="inline-flex items-center rounded-full bg-butter px-4 py-2 text-[0.68rem] font-semibold tracking-[0.16em] text-foreground uppercase ring-1 ring-foreground/10">
+                Incluido en el proceso completo
+              </span>
+
+              <Handwritten className="mt-7 rotate-1">
+                un espacio para vos
+              </Handwritten>
+
+              <h2
+                id="sesion-title"
+                className="mx-auto mt-3 max-w-2xl font-serif font-soft text-[2.15rem] leading-[1.08] text-balance md:text-4xl"
+              >
+                Además de las 4 etapas, tenés una sesión 1 a 1 conmigo.
+              </h2>
+
+              <p className="mx-auto mt-6 max-w-2xl text-base leading-[1.8] text-muted-foreground text-pretty md:text-lg">
+                Una sesión personalizada para conocer tu proceso y
+                profundizar en lo que estés atravesando.
+              </p>
+
+              <p className="mx-auto mt-6 max-w-xl font-serif font-soft text-lg leading-snug text-foreground md:text-xl">
+                Esta sesión ya está incluida al acceder al proceso completo.
+              </p>
+
+              <CtaLink
+                href={HOTMART_URL}
+                variant="primary"
+                className="mt-8 w-full sm:w-auto"
+              >
+                Quiero continuar con Coherencia Interior
+              </CtaLink>
+
+              <p className="mt-4 text-sm text-muted-foreground">
+                4 etapas · WhatsApp · 1 sesión individual 1 a 1
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* CONTINUIDAD */}
         <section
           aria-labelledby="continuidad-title"
@@ -533,7 +525,10 @@ export default function Page() {
                 Coherencia Interior · 4 etapas · online
               </p>
 
-              <CtaLink href={HOTMART_URL} className="mt-7 w-full">
+              <CtaLink
+                href={HOTMART_URL}
+                className="mt-7 w-full"
+              >
                 Continuar con Coherencia Interior
               </CtaLink>
             </div>

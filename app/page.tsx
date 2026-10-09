@@ -260,49 +260,49 @@ export default function Page() {
                 <article
                   key={stage.number}
                   id={`etapa-${stage.number}`}
-                  className="scroll-mt-24 overflow-hidden rounded-[2rem] border border-[#8e765d]/20 bg-background"
+                  className="scroll-mt-24 overflow-hidden rounded-[1.75rem] border border-[#8e765d]/20 bg-[#f8f3ea] shadow-[0_14px_40px_rgba(72,52,36,0.08)] transition-all duration-300 md:rounded-[2.25rem] md:hover:-translate-y-1 md:hover:shadow-[0_20px_55px_rgba(72,52,36,0.11)]"
                 >
-                  <div className="grid md:grid-cols-[180px_1fr]">
-                    <div className="flex items-start justify-between border-b border-[#8e765d]/15 bg-[#eee5d7]/60 p-7 md:border-b-0 md:border-r md:p-8">
+                  <div className="grid md:grid-cols-[175px_1fr]">
+                    <div className="relative flex items-center justify-between gap-4 border-b border-[#8e765d]/15 bg-[#eee5d7]/65 px-5 py-5 sm:px-7 sm:py-6 md:flex-col md:items-start md:justify-start md:border-b-0 md:border-r md:px-8 md:py-9">
                       <div>
-                        <span className="font-serif text-5xl italic leading-none text-primary/70 md:text-6xl">
+                        <span className="font-serif text-[3.2rem] italic leading-none text-primary/75 sm:text-5xl md:text-6xl">
                           {stage.number}
                         </span>
 
-                        <p className="mt-5 text-xs font-semibold tracking-[0.18em] text-[#6f583f]">
+                        <p className="mt-2 text-[0.68rem] font-semibold tracking-[0.2em] text-[#6f583f] sm:mt-3 sm:text-xs md:mt-5">
                           {stage.eyebrow}
                         </p>
                       </div>
 
-                      <span className="font-serif text-sm text-[#8e765d]/50 md:hidden">
+                      <span className="font-serif text-xs tracking-[0.12em] text-[#8e765d]/55 md:mt-auto md:text-sm">
                         {String(index + 1).padStart(2, '0')}/04
                       </span>
                     </div>
 
-                    <div className="p-7 md:p-10">
-                      <h3 className="font-serif font-soft text-[2rem] leading-[1.1] text-balance md:text-4xl">
+                    <div className="p-5 sm:p-7 md:p-10">
+                      <h3 className="font-serif font-soft text-[1.85rem] leading-[1.08] text-balance sm:text-[2rem] md:text-4xl">
                         {stage.title}
                       </h3>
 
-                      <p className="mt-6 max-w-2xl leading-[1.8] text-muted-foreground text-pretty md:text-lg">
+                      <p className="mt-5 max-w-2xl leading-[1.8] text-muted-foreground text-pretty sm:mt-6 md:text-lg">
                         {stage.intro}
                       </p>
 
                       {stage.question && (
-                        <p className="mt-7 font-serif text-2xl italic text-primary md:text-3xl">
+                        <p className="mt-6 font-serif text-[1.7rem] italic leading-tight text-primary sm:mt-7 sm:text-2xl md:text-3xl">
                           {stage.question}
                         </p>
                       )}
 
-                      <ul className="mt-7 grid gap-3 sm:grid-cols-2">
+                      <ul className="mt-6 grid gap-2.5 sm:mt-7 sm:grid-cols-2 sm:gap-3">
                         {stage.points.map((point) => (
                           <li
                             key={point}
-                            className="flex gap-3 rounded-2xl bg-[#f4ecdf]/70 px-4 py-3 text-sm leading-relaxed text-[#5b4737] md:text-base"
+                            className="flex gap-3 rounded-[1rem] border border-[#8e765d]/10 bg-white/35 px-4 py-3.5 text-sm leading-[1.55] text-[#5b4737] sm:rounded-2xl md:text-base"
                           >
                             <span
                               aria-hidden="true"
-                              className="mt-2 size-1.5 shrink-0 rounded-full bg-primary"
+                              className="mt-[0.48rem] size-1.5 shrink-0 rounded-full bg-primary"
                             />
                             <span>{point}</span>
                           </li>
@@ -310,13 +310,13 @@ export default function Page() {
                       </ul>
 
                       {stage.closing && (
-                        <p className="mt-8 max-w-2xl leading-[1.8] text-muted-foreground text-pretty">
+                        <p className="mt-7 max-w-2xl border-t border-[#8e765d]/15 pt-6 leading-[1.8] text-muted-foreground text-pretty sm:mt-8 sm:pt-7">
                           {stage.closing}
                         </p>
                       )}
 
                       {stage.quote && (
-                        <blockquote className="mt-8 border-l-2 border-primary/40 pl-5 font-serif text-xl leading-snug text-[#4d3b2e] md:text-2xl">
+                        <blockquote className="mt-7 rounded-r-2xl border-l-2 border-primary/45 bg-[#eee5d7]/45 px-4 py-4 font-serif text-lg leading-[1.45] text-[#4d3b2e] sm:mt-8 sm:px-5 sm:py-5 sm:text-xl md:text-2xl">
                           {stage.quote}
                         </blockquote>
                       )}

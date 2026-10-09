@@ -88,7 +88,7 @@ export default function Page() {
         {/* HERO */}
         <section
           id="inicio"
-          className="relative overflow-hidden px-5 pb-20 pt-16 md:pb-28 md:pt-24"
+          className="relative overflow-hidden px-5 pb-20 pt-12 sm:pt-16 md:pb-28 md:pt-24"
         >
           <div
             aria-hidden="true"
@@ -103,35 +103,37 @@ export default function Page() {
           <div className="relative mx-auto max-w-4xl text-center">
             <Handwritten>despertar · integración · expansión</Handwritten>
 
-            <h1 className="mt-4 font-serif font-soft text-[3rem] leading-[0.98] text-balance text-[#3b2a1f] sm:text-[4rem] md:text-7xl">
+            {/* TÍTULO PRINCIPAL */}
+            <h1 className="mt-4 font-serif font-soft text-[3.2rem] leading-[0.98] tracking-[-0.03em] text-[#3b2a1f] sm:text-[4rem] md:text-7xl">
               Coherencia <span className="italic text-primary">Interior</span>
             </h1>
 
-            <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-3xl leading-[1.08] text-[#4d392b] text-balance md:text-5xl">
+            {/* SUBTÍTULO */}
+            <h2 className="mx-auto mt-6 max-w-3xl font-serif font-soft text-[1.85rem] leading-[1.12] text-[#4d392b] text-balance sm:text-3xl md:mt-7 md:text-5xl">
               El proceso que crea un{' '}
               <span className="italic text-primary">Puente</span> entre tu Ser
               interior y tu Vida.
             </h2>
 
-            <div className="mx-auto mt-8 max-w-3xl">
-              <p className="text-lg leading-[1.7] text-[#5b4737] text-balance md:text-xl">
+            {/* TEXTO */}
+            <div className="mx-auto mt-7 max-w-2xl">
+              <p className="text-[1rem] leading-[1.75] text-[#5b4737] text-balance sm:text-lg md:text-xl">
                 Una gran transformación puede comenzar con herramientas simples
                 y sostenibles en el Tiempo.
               </p>
 
-              <p className="mt-4 text-base leading-[1.7] text-muted-foreground text-balance md:text-lg">
+              <p className="mt-4 text-[1rem] leading-[1.75] text-[#6b5b4d] text-balance sm:text-lg">
                 No es necesario cambiar todo de un día para otro.
               </p>
 
-              <p className="mx-auto mt-5 max-w-2xl font-serif text-xl leading-[1.45] text-[#5b4737] text-balance md:text-[1.55rem]">
-                Cuando comprendés cómo funciona tu Ser en{' '}
-                <span className="italic text-primary">Profundidad</span>, te
-                das cuenta de que eso que te afectó tanto tiempo podría
-                convertirse en una herramienta poderosa.
+              <p className="mt-5 text-[1rem] leading-[1.75] text-[#5b4737] text-balance sm:text-lg">
+                Cuando comprendés cómo funciona tu Ser, descubrís que eso que
+                tanto te afectó podría ser una herramienta poderosa.
               </p>
             </div>
 
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
+            {/* DATOS */}
+            <div className="mt-7 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
               <span>4 etapas</span>
               <span aria-hidden="true">·</span>
               <span>Online</span>
@@ -139,6 +141,7 @@ export default function Page() {
               <span>A tu ritmo</span>
             </div>
 
+            {/* BOTONES */}
             <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <CtaLink
                 href="/primera-etapa"

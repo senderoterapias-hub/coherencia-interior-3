@@ -11,7 +11,6 @@ const stages = [
   {
     number: '01',
     eyebrow: 'COMPRENDER',
-    mapTitle: 'Etapa 1: Comprensión',
     title:
       'Comprendé por qué experimentás la vida de la forma en que lo hacés.',
     intro:
@@ -29,7 +28,6 @@ const stages = [
   {
     number: '02',
     eyebrow: 'LIBERAR',
-    mapTitle: 'Etapa 2: Liberación',
     title: 'Liberá eso que te ata a lo que ya no sos.',
     intro:
       'Una vez que empezás a comprender tu mundo interno, aparece el siguiente paso: liberar aquello que pertenece a una versión anterior de vos.',
@@ -49,7 +47,6 @@ const stages = [
   {
     number: '03',
     eyebrow: 'ESCUCHAR',
-    mapTitle: 'Etapa 3: Guía Divina',
     title: 'Escuchá tu voz interior.',
     intro:
       'Después de conocerte y liberar aquello que ya no corresponde, llega una pregunta más profunda:',
@@ -67,7 +64,6 @@ const stages = [
   {
     number: '04',
     eyebrow: 'CREAR',
-    mapTitle: 'Etapa 4: Coherencia',
     title: 'Llevá todo esto a tu vida.',
     intro:
       'Todo lo anterior tiene que poder vivirse. Esta etapa trabaja sobre tu propósito y sobre cómo llevar todo este proceso de coherencia hacia pasos concretos.',
@@ -92,7 +88,7 @@ export default function Page() {
         {/* HERO */}
         <section
           id="inicio"
-          className="relative overflow-hidden px-5 pb-20 pt-12 sm:pt-16 md:pb-28 md:pt-24"
+          className="relative overflow-hidden px-5 pb-20 pt-16 md:pb-28 md:pt-24"
         >
           <div
             aria-hidden="true"
@@ -107,31 +103,30 @@ export default function Page() {
           <div className="relative mx-auto max-w-4xl text-center">
             <Handwritten>despertar · integración · expansión</Handwritten>
 
-            <h1 className="mt-4 font-serif font-soft text-[3.2rem] leading-[0.98] tracking-[-0.03em] text-[#3b2a1f] sm:text-[4rem] md:text-7xl">
+            <h1 className="mt-4 font-serif font-soft text-[3rem] leading-[0.98] text-balance text-[#3b2a1f] sm:text-[4rem] md:text-7xl">
               Coherencia <span className="italic text-primary">Interior</span>
             </h1>
 
-            <h2 className="mx-auto mt-6 max-w-3xl font-serif font-soft text-[1.85rem] leading-[1.12] text-[#4d392b] text-balance sm:text-3xl md:mt-7 md:text-5xl">
+            <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-3xl leading-[1.08] text-[#4d392b] text-balance md:text-5xl">
               El proceso que crea un{' '}
               <span className="italic text-primary">Puente</span> entre tu Ser
               interior y tu Vida.
             </h2>
 
-            <div className="mx-auto mt-7 max-w-2xl">
-              <p className="text-[1rem] leading-[1.75] text-[#5b4737] text-balance sm:text-lg md:text-xl">
-                Una gran transformación puede comenzar con herramientas simples
-                y sostenibles en el Tiempo.
-              </p>
+            <p className="mx-auto mt-7 max-w-3xl text-lg leading-[1.75] text-[#5b4737] text-balance md:text-xl">
+              Una gran transformación puede comenzar con herramientas simples y
+              sostenibles en el Tiempo.
+            </p>
 
-              <p className="mt-4 text-[1rem] leading-[1.75] text-[#6b5b4d] text-balance sm:text-lg">
-                No es necesario cambiar todo de un día para otro.
-              </p>
+            <p className="mx-auto mt-5 max-w-2xl text-base leading-[1.8] text-muted-foreground text-balance md:text-lg">
+              No es necesario cambiar todo de un día para otro.
+            </p>
 
-              <p className="mt-5 text-[1rem] leading-[1.75] text-[#5b4737] text-balance sm:text-lg">
-                Cuando comprendés cómo funciona tu Ser, descubrís que eso que
-                tanto te afectó podría ser una herramienta poderosa.
-              </p>
-            </div>
+            <p className="mx-auto mt-5 max-w-3xl font-serif text-xl leading-[1.55] text-[#5b4737] text-balance md:text-2xl">
+              Cuando comprendés cómo funciona tu Ser en Profundidad te das
+              cuenta de que eso que te afectó tanto tiempo podría convertirse
+              en una herramienta poderosa.
+            </p>
 
             <div className="mt-7 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
               <span>4 etapas</span>
@@ -141,25 +136,13 @@ export default function Page() {
               <span>A tu ritmo</span>
             </div>
 
-            <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <CtaLink
-                href="/primera-etapa"
-                className="w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
-                pulse
-              >
-                Comenzá de forma Gratuita
-              </CtaLink>
-
-              <a
-                href="#etapas"
-                className="inline-flex min-h-11 w-full items-center justify-center rounded-full border border-[#6f7a3d]/40 px-6 py-2.5 text-sm font-medium text-[#5b4737] transition-all duration-300 hover:border-primary hover:bg-primary/5 hover:text-primary sm:w-auto"
-              >
-                Conocer las 4 etapas
-                <span aria-hidden="true" className="ml-2">
-                  →
-                </span>
-              </a>
-            </div>
+            <CtaLink
+              href="/primera-etapa"
+              className="mt-9 w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
+              pulse
+            >
+              Comenzá de forma Gratuita
+            </CtaLink>
 
             <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground">
               Empezá por la primera etapa y experimentá el proceso desde
@@ -203,30 +186,9 @@ export default function Page() {
 
             <Sparkle className="mx-auto mt-9 size-6 text-primary" />
 
-            <div className="mx-auto mt-8 flex max-w-2xl flex-wrap items-center justify-center gap-x-3 gap-y-2 font-serif text-xl leading-relaxed text-[#5b4737] sm:text-2xl md:text-3xl">
-              <span>Comprensión</span>
-              <span
-                aria-hidden="true"
-                className="text-primary/50"
-              >
-                ·
-              </span>
-              <span>Liberación</span>
-              <span
-                aria-hidden="true"
-                className="text-primary/50"
-              >
-                ·
-              </span>
-              <span>Guía</span>
-              <span
-                aria-hidden="true"
-                className="text-primary/50"
-              >
-                ·
-              </span>
-              <span>Expansión</span>
-            </div>
+            <p className="mx-auto mt-7 max-w-2xl font-serif text-xl leading-relaxed text-[#5b4737] md:text-2xl">
+              Comprensión - Liberación - Guía - Expansión
+            </p>
           </div>
         </section>
 
@@ -264,8 +226,8 @@ export default function Page() {
                     {stage.number}
                   </span>
 
-                  <p className="mt-3 text-sm font-semibold tracking-[0.08em] text-[#5b4737]">
-                    {stage.mapTitle}
+                  <p className="mt-3 text-sm font-semibold tracking-[0.14em] text-[#5b4737]">
+                    {stage.eyebrow}
                   </p>
 
                   <span className="mx-auto mt-5 block h-px w-10 bg-[#8e765d]/30 transition-all duration-300 group-hover:w-16 group-hover:bg-primary/50" />
@@ -298,63 +260,117 @@ export default function Page() {
                 <article
                   key={stage.number}
                   id={`etapa-${stage.number}`}
-                  className="scroll-mt-24 overflow-hidden rounded-[2rem] border border-[#8e765d]/20 bg-background"
+                  className="group relative scroll-mt-24 overflow-hidden rounded-[2.25rem] border border-[#8e765d]/20 bg-[#f8f2e8] shadow-[0_14px_45px_rgba(72,52,36,0.06)] transition-all duration-500 hover:border-primary/30 hover:shadow-[0_20px_55px_rgba(72,52,36,0.09)]"
                 >
-                  <div className="grid md:grid-cols-[180px_1fr]">
-                    <div className="flex items-start justify-between border-b border-[#8e765d]/15 bg-[#eee5d7]/60 p-7 md:border-b-0 md:border-r md:p-8">
+                  {/* Textura orgánica de fondo */}
+                  <div
+                    aria-hidden="true"
+                    className="pointer-events-none absolute -right-20 -top-20 size-64 rounded-full bg-primary/10 blur-3xl transition-transform duration-[1800ms] group-hover:scale-125"
+                  />
+
+                  <div
+                    aria-hidden="true"
+                    className="pointer-events-none absolute -bottom-24 -left-24 size-72 rounded-full bg-[#d9c4a8]/20 blur-3xl transition-transform duration-[2200ms] group-hover:scale-110"
+                  />
+
+                  {/* Número decorativo */}
+                  <div
+                    aria-hidden="true"
+                    className="pointer-events-none absolute right-4 top-0 select-none font-serif text-[9rem] font-light leading-none text-primary/[0.055] sm:right-8 sm:text-[11rem]"
+                  >
+                    {stage.number}
+                  </div>
+
+                  <div className="relative grid md:grid-cols-[170px_1fr]">
+                    {/* CABECERA */}
+                    <div className="relative flex min-h-[150px] items-end border-b border-[#8e765d]/15 p-7 md:min-h-full md:items-start md:border-b-0 md:border-r md:p-8">
                       <div>
-                        <span className="font-serif text-5xl italic leading-none text-primary/70 md:text-6xl">
+                        <span className="font-serif text-6xl italic leading-none text-primary/70 md:text-7xl">
                           {stage.number}
                         </span>
 
-                        <p className="mt-5 text-xs font-semibold tracking-[0.18em] text-[#6f583f]">
-                          {stage.eyebrow}
-                        </p>
+                        <div className="mt-5 flex items-center gap-3">
+                          <span className="h-px w-8 bg-primary/40" />
+
+                          <p className="text-[11px] font-semibold tracking-[0.2em] text-[#6f583f]">
+                            {stage.eyebrow}
+                          </p>
+                        </div>
                       </div>
 
-                      <span className="font-serif text-sm text-[#8e765d]/50 md:hidden">
-                        {String(index + 1).padStart(2, '0')}/04
+                      <span className="absolute right-7 top-7 font-serif text-xs text-[#8e765d]/45 md:hidden">
+                        {String(index + 1).padStart(2, '0')} / 04
                       </span>
                     </div>
 
-                    <div className="p-7 md:p-10">
-                      <h3 className="font-serif font-soft text-[2rem] leading-[1.1] text-balance md:text-4xl">
+                    {/* CONTENIDO */}
+                    <div className="relative p-7 sm:p-8 md:p-10">
+                      <h3 className="max-w-2xl font-serif font-soft text-[2rem] leading-[1.08] text-balance text-[#3f3025] sm:text-[2.2rem] md:text-4xl">
                         {stage.title}
                       </h3>
 
-                      <p className="mt-6 max-w-2xl leading-[1.8] text-muted-foreground text-pretty md:text-lg">
+                      <p className="mt-6 max-w-2xl leading-[1.85] text-[#6b5b4d] text-pretty md:text-lg">
                         {stage.intro}
                       </p>
 
                       {stage.question && (
-                        <p className="mt-7 font-serif text-2xl italic text-primary md:text-3xl">
-                          {stage.question}
-                        </p>
+                        <div className="relative mt-7 overflow-hidden rounded-2xl border border-primary/15 bg-primary/[0.045] px-5 py-5">
+                          <div
+                            aria-hidden="true"
+                            className="absolute -right-6 -top-8 size-20 rounded-full bg-primary/10 blur-2xl"
+                          />
+
+                          <p className="relative font-serif text-2xl italic leading-snug text-primary md:text-3xl">
+                            {stage.question}
+                          </p>
+                        </div>
                       )}
 
-                      <ul className="mt-7 grid gap-3 sm:grid-cols-2">
-                        {stage.points.map((point) => (
+                      {/* PUNTOS */}
+                      <ul className="mt-8 space-y-2">
+                        {stage.points.map((point, pointIndex) => (
                           <li
                             key={point}
-                            className="flex gap-3 rounded-2xl bg-[#f4ecdf]/70 px-4 py-3 text-sm leading-relaxed text-[#5b4737] md:text-base"
+                            className="group/point relative flex items-start gap-4 rounded-2xl border border-[#8e765d]/10 bg-white/35 px-4 py-4 transition-all duration-300 hover:border-primary/20 hover:bg-white/55 sm:px-5 sm:py-4"
                           >
                             <span
                               aria-hidden="true"
-                              className="mt-2 size-1.5 shrink-0 rounded-full bg-primary"
-                            />
-                            <span>{point}</span>
+                              className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-full border border-primary/20 bg-primary/[0.07] font-serif text-sm text-primary transition-all duration-300 group-hover/point:scale-110 group-hover/point:border-primary/40 group-hover/point:bg-primary/10"
+                            >
+                              {String(pointIndex + 1).padStart(2, '0')}
+                            </span>
+
+                            <span className="pt-0.5 text-[15px] leading-[1.65] text-[#514034] sm:text-base">
+                              {point}
+                            </span>
                           </li>
                         ))}
                       </ul>
 
                       {stage.closing && (
-                        <p className="mt-8 max-w-2xl leading-[1.8] text-muted-foreground text-pretty">
-                          {stage.closing}
-                        </p>
+                        <div className="relative mt-9 rounded-[1.5rem] border border-primary/10 bg-[#efe5d6]/55 px-5 py-5 sm:px-6 sm:py-6">
+                          <span
+                            aria-hidden="true"
+                            className="absolute -top-2 left-6 font-serif text-2xl text-primary/50"
+                          >
+                            “
+                          </span>
+
+                          <p className="pt-2 max-w-2xl font-serif text-[1.05rem] leading-[1.65] text-[#5b4737] sm:text-lg">
+                            {stage.closing}
+                          </p>
+                        </div>
                       )}
 
                       {stage.quote && (
-                        <blockquote className="mt-8 border-l-2 border-primary/40 pl-5 font-serif text-xl leading-snug text-[#4d3b2e] md:text-2xl">
+                        <blockquote className="relative mt-9 border-l-2 border-primary/40 pl-5 font-serif text-xl leading-[1.4] text-[#4d3b2e] sm:pl-6 md:text-2xl">
+                          <span
+                            aria-hidden="true"
+                            className="absolute -left-2 -top-5 bg-[#f8f2e8] px-1 font-serif text-3xl text-primary/60"
+                          >
+                            “
+                          </span>
+
                           {stage.quote}
                         </blockquote>
                       )}
@@ -512,7 +528,10 @@ export default function Page() {
                 Coherencia Interior · 4 etapas · online
               </p>
 
-              <CtaLink href={HOTMART_URL} className="mt-7 w-full">
+              <CtaLink
+                href={HOTMART_URL}
+                className="mt-7 w-full"
+              >
                 Continuar con Coherencia Interior
               </CtaLink>
             </div>

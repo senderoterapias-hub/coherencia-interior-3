@@ -103,19 +103,16 @@ export default function Page() {
           <div className="relative mx-auto max-w-4xl text-center">
             <Handwritten>despertar · integración · expansión</Handwritten>
 
-            {/* TÍTULO PRINCIPAL */}
             <h1 className="mt-4 font-serif font-soft text-[3.2rem] leading-[0.98] tracking-[-0.03em] text-[#3b2a1f] sm:text-[4rem] md:text-7xl">
               Coherencia <span className="italic text-primary">Interior</span>
             </h1>
 
-            {/* SUBTÍTULO */}
             <h2 className="mx-auto mt-6 max-w-3xl font-serif font-soft text-[1.85rem] leading-[1.12] text-[#4d392b] text-balance sm:text-3xl md:mt-7 md:text-5xl">
               El proceso que crea un{' '}
               <span className="italic text-primary">Puente</span> entre tu Ser
               interior y tu Vida.
             </h2>
 
-            {/* TEXTO */}
             <div className="mx-auto mt-7 max-w-2xl">
               <p className="text-[1rem] leading-[1.75] text-[#5b4737] text-balance sm:text-lg md:text-xl">
                 Una gran transformación puede comenzar con herramientas simples
@@ -132,7 +129,6 @@ export default function Page() {
               </p>
             </div>
 
-            {/* DATOS */}
             <div className="mt-7 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
               <span>4 etapas</span>
               <span aria-hidden="true">·</span>
@@ -141,7 +137,6 @@ export default function Page() {
               <span>A tu ritmo</span>
             </div>
 
-            {/* BOTONES */}
             <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <CtaLink
                 href="/primera-etapa"
@@ -204,9 +199,31 @@ export default function Page() {
 
             <Sparkle className="mx-auto mt-9 size-6 text-primary" />
 
-            <p className="mx-auto mt-7 max-w-2xl font-serif text-xl leading-relaxed text-[#5b4737] md:text-2xl">
-              Comprenderte. Liberarte. Escucharte. Crear.
-            </p>
+            {/* NUEVA FRASE */}
+            <div className="mx-auto mt-8 flex max-w-2xl flex-wrap items-center justify-center gap-x-3 gap-y-2 font-serif text-xl leading-relaxed text-[#5b4737] sm:text-2xl md:text-3xl">
+              <span>Comprensión</span>
+              <span
+                aria-hidden="true"
+                className="text-primary/50"
+              >
+                ·
+              </span>
+              <span>Liberación</span>
+              <span
+                aria-hidden="true"
+                className="text-primary/50"
+              >
+                ·
+              </span>
+              <span>Guía</span>
+              <span
+                aria-hidden="true"
+                className="text-primary/50"
+              >
+                ·
+              </span>
+              <span>Expansión</span>
+            </div>
           </div>
         </section>
 
@@ -492,10 +509,7 @@ export default function Page() {
                 Coherencia Interior · 4 etapas · online
               </p>
 
-              <CtaLink
-                href={HOTMART_URL}
-                className="mt-7 w-full"
-              >
+              <CtaLink href={HOTMART_URL} className="mt-7 w-full">
                 Continuar con Coherencia Interior
               </CtaLink>
             </div>

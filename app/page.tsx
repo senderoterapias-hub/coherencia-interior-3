@@ -11,6 +11,7 @@ const stages = [
   {
     number: '01',
     eyebrow: 'COMPRENDER',
+    mapTitle: 'Etapa 1: Comprensión',
     title:
       'Comprendé por qué experimentás la vida de la forma en que lo hacés.',
     intro:
@@ -28,6 +29,7 @@ const stages = [
   {
     number: '02',
     eyebrow: 'LIBERAR',
+    mapTitle: 'Etapa 2: Liberación',
     title: 'Liberá eso que te ata a lo que ya no sos.',
     intro:
       'Una vez que empezás a comprender tu mundo interno, aparece el siguiente paso: liberar aquello que pertenece a una versión anterior de vos.',
@@ -47,6 +49,7 @@ const stages = [
   {
     number: '03',
     eyebrow: 'ESCUCHAR',
+    mapTitle: 'Etapa 3: Guía Divina',
     title: 'Escuchá tu voz interior.',
     intro:
       'Después de conocerte y liberar aquello que ya no corresponde, llega una pregunta más profunda:',
@@ -64,6 +67,7 @@ const stages = [
   {
     number: '04',
     eyebrow: 'CREAR',
+    mapTitle: 'Etapa 4: Coherencia',
     title: 'Llevá todo esto a tu vida.',
     intro:
       'Todo lo anterior tiene que poder vivirse. Esta etapa trabaja sobre tu propósito y sobre cómo llevar todo este proceso de coherencia hacia pasos concretos.',
@@ -199,7 +203,6 @@ export default function Page() {
 
             <Sparkle className="mx-auto mt-9 size-6 text-primary" />
 
-            {/* NUEVA FRASE */}
             <div className="mx-auto mt-8 flex max-w-2xl flex-wrap items-center justify-center gap-x-3 gap-y-2 font-serif text-xl leading-relaxed text-[#5b4737] sm:text-2xl md:text-3xl">
               <span>Comprensión</span>
               <span
@@ -261,8 +264,8 @@ export default function Page() {
                     {stage.number}
                   </span>
 
-                  <p className="mt-3 text-sm font-semibold tracking-[0.14em] text-[#5b4737]">
-                    {stage.eyebrow}
+                  <p className="mt-3 text-sm font-semibold tracking-[0.08em] text-[#5b4737]">
+                    {stage.mapTitle}
                   </p>
 
                   <span className="mx-auto mt-5 block h-px w-10 bg-[#8e765d]/30 transition-all duration-300 group-hover:w-16 group-hover:bg-primary/50" />

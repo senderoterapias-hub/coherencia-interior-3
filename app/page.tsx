@@ -459,9 +459,17 @@ export default function Page() {
 
               <h2
                 id="sesion-title"
-                className="mx-auto mt-3 max-w-2xl font-serif font-soft text-[2.15rem] leading-[1.08] text-balance md:text-4xl"
+                className="mx-auto mt-3 max-w-2xl font-serif font-soft text-[1.8rem] leading-[1.12] tracking-[-0.01em] text-balance sm:text-[2rem] md:text-4xl"
               >
-                Además de las 4 etapas, tenés una sesión 1 a 1 conmigo.
+                <span className="sm:hidden">
+                  Además de las 4 etapas, tenés
+                  <br />
+                  una sesión 1 a 1 conmigo.
+                </span>
+
+                <span className="hidden sm:inline">
+                  Además de las 4 etapas, tenés una sesión 1 a 1 conmigo.
+                </span>
               </h2>
 
               <p className="mx-auto mt-6 max-w-2xl text-base leading-[1.8] text-muted-foreground text-pretty md:text-lg">

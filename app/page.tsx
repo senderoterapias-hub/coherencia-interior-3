@@ -390,16 +390,62 @@ export default function Page() {
         {/* 4 ETAPAS · 1 PROCESO */}
         <section
           aria-labelledby="ciclos-title"
-          className="relative overflow-hidden px-5 py-20 md:py-28"
+          className="relative isolate overflow-hidden px-5 py-20 md:py-28"
         >
+          {/* ATMÓSFERA CÓSMICA SUTIL */}
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute -right-32 top-20 size-80 rounded-full bg-[#dfe4c8]/45 blur-3xl"
+            className="pointer-events-none absolute left-1/2 top-1/2 -z-10 size-[32rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#9b8ac4]/[0.045] blur-3xl md:size-[42rem]"
+          />
+
+          {/* ÓRBITA GRANDE */}
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute left-1/2 top-1/2 -z-10 size-[25rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#8d78bd]/[0.12] rotate-[18deg] md:size-[38rem]"
+          />
+
+          {/* SEGUNDA ÓRBITA */}
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute left-1/2 top-[47%] -z-10 h-[17rem] w-[29rem] -translate-x-1/2 -translate-y-1/2 rounded-[50%] border border-[#a18dcc]/[0.09] rotate-[-24deg] md:h-[25rem] md:w-[42rem]"
+          />
+
+          {/* TERCERA ÓRBITA */}
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute left-1/2 top-[53%] -z-10 h-[11rem] w-[25rem] -translate-x-1/2 -translate-y-1/2 rounded-[50%] border border-[#8d78bd]/[0.07] rotate-[42deg] md:h-[17rem] md:w-[34rem]"
+          />
+
+          {/* HALOS VIOLETA */}
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute -left-24 top-24 -z-10 size-72 rounded-full bg-[#9d8bc7]/[0.07] blur-3xl"
           />
 
           <div
             aria-hidden="true"
-            className="pointer-events-none absolute -left-32 bottom-10 size-80 rounded-full bg-[#eadcc6]/55 blur-3xl"
+            className="pointer-events-none absolute -right-24 bottom-24 -z-10 size-80 rounded-full bg-[#a997cf]/[0.06] blur-3xl"
+          />
+
+          {/* PEQUEÑOS PUNTOS */}
+          <span
+            aria-hidden="true"
+            className="absolute left-[12%] top-[18%] size-1.5 rounded-full bg-[#8d78bd]/30 shadow-[0_0_12px_rgba(141,120,189,0.35)]"
+          />
+
+          <span
+            aria-hidden="true"
+            className="absolute right-[14%] top-[27%] size-1 rounded-full bg-[#9d8bc7]/40 shadow-[0_0_10px_rgba(157,139,199,0.35)]"
+          />
+
+          <span
+            aria-hidden="true"
+            className="absolute left-[18%] bottom-[31%] size-1 rounded-full bg-[#8d78bd]/30"
+          />
+
+          <span
+            aria-hidden="true"
+            className="absolute right-[18%] bottom-[20%] size-1.5 rounded-full bg-[#a997cf]/35 shadow-[0_0_12px_rgba(169,151,207,0.3)]"
           />
 
           <div className="relative mx-auto max-w-3xl text-center">
@@ -423,7 +469,7 @@ export default function Page() {
               más agradable?
             </p>
 
-            <div className="mx-auto mt-10 max-w-2xl rounded-[2rem] border border-primary/15 bg-card/75 p-7 text-left shadow-[0_14px_45px_rgba(72,52,36,0.06)] sm:p-9">
+            <div className="mx-auto mt-10 max-w-2xl rounded-[2rem] border border-primary/15 bg-card/80 p-7 text-left shadow-[0_14px_45px_rgba(72,52,36,0.06)] backdrop-blur-sm sm:p-9">
               <p className="font-serif text-xl leading-[1.5] text-[#3f3025] md:text-2xl">
                 Coherencia Interior te brinda las herramientas y la comprensión
                 necesarias para que logres atravesar cada vez tus propios ciclos
@@ -431,13 +477,9 @@ export default function Page() {
               </p>
 
               <div className="mt-6 space-y-4 text-base leading-[1.8] text-muted-foreground md:text-lg">
-                <p>
-                  Sin perder la conexión.
-                </p>
+                <p>Sin perder la conexión.</p>
 
-                <p>
-                  Sin quedar enganchado en lo antiguo.
-                </p>
+                <p>Sin quedar enganchado en lo antiguo.</p>
 
                 <p>
                   Manteniendo tu propia conexión y logrando una mayor alineación
@@ -462,15 +504,15 @@ export default function Page() {
               </p>
 
               <div className="mt-6 space-y-4">
-                <div className="rounded-[1.5rem] border border-[#8e765d]/15 bg-card px-5 py-5 text-base leading-[1.7] text-[#5b4737] sm:px-6 md:text-lg">
+                <div className="rounded-[1.5rem] border border-[#8e765d]/15 bg-card/80 px-5 py-5 text-base leading-[1.7] text-[#5b4737] backdrop-blur-sm sm:px-6 md:text-lg">
                   Los ciclos suceden, sea que aprendas a navegarlos o no.
                 </div>
 
-                <div className="rounded-[1.5rem] border border-[#8e765d]/15 bg-card px-5 py-5 text-base leading-[1.7] text-[#5b4737] sm:px-6 md:text-lg">
+                <div className="rounded-[1.5rem] border border-[#8e765d]/15 bg-card/80 px-5 py-5 text-base leading-[1.7] text-[#5b4737] backdrop-blur-sm sm:px-6 md:text-lg">
                   Podés padecer cada ciclo y atravesarlo como puedas.
                 </div>
 
-                <div className="rounded-[1.5rem] border border-primary/25 bg-primary/[0.06] px-5 py-5 text-base leading-[1.7] text-[#4d3b2e] shadow-[0_8px_25px_rgba(72,52,36,0.04)] sm:px-6 md:text-lg">
+                <div className="rounded-[1.5rem] border border-primary/25 bg-primary/[0.06] px-5 py-5 text-base leading-[1.7] text-[#4d3b2e] shadow-[0_8px_25px_rgba(72,52,36,0.04)] backdrop-blur-sm sm:px-6 md:text-lg">
                   O disponerte a aprender a navegarlos cada vez con mayor
                   maestría.
                 </div>
@@ -492,7 +534,7 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="mx-auto mt-12 max-w-2xl rounded-[2rem] bg-[#3f3025] px-7 py-8 text-center text-[#f8f2e8] shadow-[0_18px_50px_rgba(59,42,31,0.15)] sm:px-9 sm:py-10">
+            <div className="mx-auto mt-12 max-w-2xl rounded-[2rem] bg-[#3f3025]/95 px-7 py-8 text-center text-[#f8f2e8] shadow-[0_18px_50px_rgba(59,42,31,0.15)] sm:px-9 sm:py-10">
               <p className="font-serif text-[1.55rem] leading-[1.3] text-balance sm:text-2xl md:text-3xl">
                 Este proceso no es un taller, ni un curso.
               </p>

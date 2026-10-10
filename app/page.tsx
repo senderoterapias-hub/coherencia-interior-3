@@ -101,21 +101,23 @@ export default function Page() {
           />
 
           <div className="relative mx-auto max-w-4xl text-center">
-            <Handwritten>despertar · integración · expansión</Handwritten>
+            <Handwritten>
+              despertar · integración · expansión
+            </Handwritten>
 
             <h1 className="mt-4 font-serif font-soft text-[3rem] leading-[0.98] text-balance text-[#3b2a1f] sm:text-[4rem] md:text-7xl">
-              Coherencia <span className="italic text-primary">Interior</span>
+              Coherencia{' '}
+              <span className="italic text-primary">Interior</span>
             </h1>
 
             <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-3xl leading-[1.08] text-[#4d392b] text-balance md:text-5xl">
-              El proceso que crea un{' '}
+              Un{' '}
               <span className="italic text-primary">Puente</span> entre tu Ser
               interior y tu Vida.
             </h2>
 
             <p className="mx-auto mt-7 max-w-3xl text-lg leading-[1.75] text-[#5b4737] text-balance md:text-xl">
-              Una gran transformación puede comenzar con herramientas simples y
-              sostenibles en el Tiempo.
+              Herramientas simples y sostenibles que transforman tu mundo.
             </p>
 
             <p className="mx-auto mt-5 max-w-2xl text-base leading-[1.8] text-muted-foreground text-balance md:text-lg">
@@ -123,12 +125,11 @@ export default function Page() {
             </p>
 
             <p className="mx-auto mt-5 max-w-3xl font-serif text-xl leading-[1.55] text-[#5b4737] text-balance md:text-2xl">
-              Cuando comprendés cómo funciona tu Ser en Profundidad te das
-              cuenta de que eso que te afectó tanto tiempo podría convertirse
-              en una herramienta poderosa.
+              Cuando comprendés cómo funciona tu Ser te das cuenta de que eso
+              que antes te afectó podría ser una llave poderosa.
             </p>
 
-            <div className="mt-7 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
+            <div className="mt-7 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-sm text-muted-foreground">
               <span>4 etapas</span>
               <span aria-hidden="true">·</span>
               <span>Online</span>
@@ -163,31 +164,35 @@ export default function Page() {
               id="promesa-title"
               className="mt-4 font-serif font-soft text-[2.3rem] leading-[1.08] text-balance md:text-5xl"
             >
-              Hay mucho más disponible en vos de lo que quizás hoy lográs ver.
+              Hay mucho más disponible para vos de lo que quizás hoy lográs
+              ver.
             </h2>
 
             <div className="mx-auto mt-8 max-w-2xl space-y-5 text-base leading-[1.8] text-muted-foreground text-pretty md:text-lg">
               <p>
-                Coherencia Interior es un proceso para comenzar a comprender
-                tu mundo interno, liberar aquello que ya no corresponde a tu
-                etapa actual y aprender a escuchar la guía que existe dentro
-                tuyo.
+                Coherencia Interior es un proceso que te ayuda a navegar las
+                turbulencias del mundo interno,
               </p>
 
               <p>
-                No se trata solamente de incorporar más información espiritual.
+                liberarte de aquellas partes invisibles que bloquean tu etapa
+                actual,
               </p>
 
               <p>
-                Se trata de <strong className="text-foreground">vivir</strong>{' '}
-                aquello que empezás a comprender.
+                desarrollar la guía interna y tu conexión superior,
+              </p>
+
+              <p>
+                para finalmente llevar este cambio a tu vida en alineación con
+                tu Propósito.
               </p>
             </div>
 
             <Sparkle className="mx-auto mt-9 size-6 text-primary" />
 
             <p className="mx-auto mt-7 max-w-2xl font-serif text-xl leading-relaxed text-[#5b4737] md:text-2xl">
-              Comprenderte. Liberarte. Escucharte. Crear.
+              Comprensión. Liberación. Guía. Manifestación.
             </p>
           </div>
         </section>

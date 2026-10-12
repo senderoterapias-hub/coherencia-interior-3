@@ -135,70 +135,117 @@ export default function Page() {
               <span aria-hidden="true">·</span>
               <span>A tu ritmo</span>
             </div>
-
-            <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <CtaLink
-                href="/primera-etapa"
-                className="w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
-                pulse
-              >
-                Comenzá de forma Gratuita
-              </CtaLink>
-
-              <a
-                href="#etapas"
-                className="inline-flex min-h-14 w-full items-center justify-center rounded-full border border-[#8e765d]/30 bg-transparent px-7 py-4 text-sm font-medium text-[#5b4737] transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/40 hover:bg-card sm:w-auto"
-              >
-                Conocer las 4 etapas
-                <span className="ml-2 text-base">→</span>
-              </a>
-            </div>
-
-            <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground">
-              Empezá por la primera etapa y experimentá el proceso desde
-              adentro.
-            </p>
           </div>
         </section>
 
-        {/* PROMESA */}
+        {/* PARA QUIÉN ES */}
         <section
-          aria-labelledby="promesa-title"
+          aria-labelledby="para-quien-title"
           className="bg-card px-5 py-20 md:py-28"
         >
-          <div className="mx-auto max-w-3xl text-center">
-            <Handwritten>un proceso para volver a vos</Handwritten>
+          <div className="mx-auto max-w-4xl">
+            <div className="text-center">
+              <Handwritten>antes de seguir avanzando</Handwritten>
 
-            <h2
-              id="promesa-title"
-              className="mt-4 font-serif font-soft text-[2.3rem] leading-[1.08] text-balance md:text-5xl"
-            >
-              Hay mucho más disponible en vos de lo que quizás hoy lográs ver.
-            </h2>
-
-            <div className="mx-auto mt-8 max-w-2xl space-y-5 text-base leading-[1.8] text-muted-foreground text-pretty md:text-lg">
-              <p>
-                Coherencia Interior es un proceso para comenzar a comprender
-                tu mundo interno, liberar aquello que ya no corresponde a tu
-                etapa actual y aprender a escuchar la guía que existe dentro
-                tuyo.
-              </p>
-
-              <p>
-                No se trata solamente de incorporar más información espiritual.
-              </p>
-
-              <p>
-                Se trata de <strong className="text-foreground">vivir</strong>{' '}
-                aquello que empezás a comprender.
-              </p>
+              <h2
+                id="para-quien-title"
+                className="mt-4 font-serif font-soft text-[2.3rem] leading-[1.08] text-balance md:text-5xl"
+              >
+                Quiero saber si este proceso es para vos:
+              </h2>
             </div>
 
-            <Sparkle className="mx-auto mt-9 size-6 text-primary" />
+            <div className="mt-12 grid gap-8 md:grid-cols-2">
+              <div className="rounded-[1.75rem] border border-primary/20 bg-[#f8f2e8] p-7 shadow-[0_10px_30px_rgba(72,52,36,0.05)] md:p-9">
+                <h3 className="font-serif font-soft text-2xl text-[#3f3025] md:text-3xl">
+                  Coherencia Interior es para quienes:
+                </h3>
 
-            <p className="mx-auto mt-7 max-w-2xl font-serif text-xl leading-relaxed text-[#5b4737] md:text-2xl">
-              Comprensión - Liberación - Guía - Expansión
-            </p>
+                <ul className="mt-7 space-y-4">
+                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
+                    <span>
+                      Están dispuestos a ver hacia adentro con compasión,
+                      apertura y honestidad.
+                    </span>
+                  </li>
+
+                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
+                    <span>
+                      Están dispuestos a hacer pequeñas prácticas diarias para
+                      transformar su vida.
+                    </span>
+                  </li>
+
+                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
+                    <span>
+                      Desean que su vida externa refleje su mundo interior y
+                      espiritualidad de forma natural.
+                    </span>
+                  </li>
+
+                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
+                    <span>
+                      Sienten un llamado interno a ser parte del cambio y desean
+                      conocer cómo cumplir su propósito.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="rounded-[1.75rem] border border-[#8e765d]/20 bg-[#eee5d7] p-7 shadow-[0_10px_30px_rgba(72,52,36,0.05)] md:p-9">
+                <h3 className="font-serif font-soft text-2xl text-[#3f3025] md:text-3xl">
+                  Coherencia Interior NO es para quienes:
+                </h3>
+
+                <ul className="mt-7 space-y-4">
+                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-[#9b7650]" />
+                    <span>
+                      Buscan conexión espiritual y despertar dones solo por
+                      curiosidad.
+                    </span>
+                  </li>
+
+                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-[#9b7650]" />
+                    <span>
+                      Desean conectar con los planos superiores pero no están
+                      dispuestos a sostenerlo en sus vidas.
+                    </span>
+                  </li>
+
+                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-[#9b7650]" />
+                    <span>
+                      Desean cambios rápidos y permanentes sin dedicarse cada
+                      día.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="mt-14 text-center">
+              <h3 className="font-serif font-soft text-[2rem] leading-tight text-[#3f3025] md:text-4xl">
+                ¿Estás list@ para continuar?
+              </h3>
+
+              <p className="mt-7 font-serif text-2xl italic text-primary md:text-3xl">
+                COHERENCIA INTERIOR
+              </p>
+
+              <p className="mt-2 text-sm font-medium tracking-[0.14em] text-[#6f583f] uppercase">
+                Un proceso de 4 etapas
+              </p>
+
+              <p className="mt-4 font-serif text-xl text-[#5b4737] md:text-2xl">
+                Comprensión - Liberación - Guía - Expansión
+              </p>
+            </div>
           </div>
         </section>
 

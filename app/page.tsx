@@ -145,17 +145,22 @@ export default function Page() {
         >
           <div className="mx-auto max-w-4xl">
             <div className="text-center">
-              <Handwritten>antes de seguir avanzando</Handwritten>
+              <Handwritten>
+                <span className="text-[1.3rem] sm:text-[1.4rem] md:text-[1.5rem]">
+                  antes de seguir avanzando
+                </span>
+              </Handwritten>
 
               <h2
                 id="para-quien-title"
-                className="mt-4 font-serif font-soft text-[2.3rem] leading-[1.08] text-balance md:text-5xl"
+                className="mt-5 font-serif font-soft text-[2.5rem] leading-[1.06] text-balance md:text-[3.4rem]"
               >
                 Quiero saber si este proceso es para vos:
               </h2>
             </div>
 
             <div className="mt-12 grid gap-8 md:grid-cols-2">
+              {/* ES PARA VOS */}
               <div className="rounded-[1.75rem] border border-primary/20 bg-[#f8f2e8] p-7 shadow-[0_10px_30px_rgba(72,52,36,0.05)] md:p-9">
                 <h3 className="font-serif font-soft text-2xl text-[#3f3025] md:text-3xl">
                   Coherencia Interior es para quienes:
@@ -189,13 +194,14 @@ export default function Page() {
                   <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
                     <span>
-                      Sienten un llamado interno a ser parte del cambio y desean
-                      conocer cómo cumplir su propósito.
+                      Sienten un llamado interno a ser parte del cambio y
+                      desean conocer cómo cumplir su propósito.
                     </span>
                   </li>
                 </ul>
               </div>
 
+              {/* NO ES PARA VOS */}
               <div className="rounded-[1.75rem] border border-[#8e765d]/20 bg-[#eee5d7] p-7 shadow-[0_10px_30px_rgba(72,52,36,0.05)] md:p-9">
                 <h3 className="font-serif font-soft text-2xl text-[#3f3025] md:text-3xl">
                   Coherencia Interior NO es para quienes:

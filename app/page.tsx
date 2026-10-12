@@ -164,8 +164,7 @@ export default function Page() {
               </h2>
             </div>
 
-            <div className="mt-12 flex gap-5 overflow-x-auto pb-4 snap-x snap-mandatory md:grid md:grid-cols-2 md:gap-8 md:overflow-visible md:pb-0">
-              {/* ES PARA VOS */}
+<div className="mt-12 -mx-5 flex gap-4 overflow-x-auto px-5 pb-4 snap-x snap-mandatory md:mx-0 md:grid md:grid-cols-2 md:gap-8 md:overflow-visible md:px-0 md:pb-0">              {/* ES PARA VOS */}
               <div className="rounded-[1.75rem] border border-primary/20 bg-[#f8f2e8] p-7 shadow-[0_10px_30px_rgba(72,52,36,0.05)] md:p-9">
                 <h3 className="font-serif font-soft text-2xl text-[#3f3025] md:text-3xl">
                   Coherencia Interior es para quienes:

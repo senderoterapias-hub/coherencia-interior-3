@@ -64,18 +64,13 @@ const stages = [
   {
     number: '04',
     eyebrow: 'CREAR',
-    title: 'Llevá todo esto a tu vida.',
+    title: 'Una Vida alineada a tu Propósito',
     intro:
-      'Todo lo anterior tiene que poder vivirse. Esta etapa trabaja sobre tu propósito y sobre cómo llevar todo este proceso de coherencia hacia pasos concretos.',
+      'A lo largo de Coherencia Interior vas a descubrir tu propósito actual, en esta etapa es donde lográs plasmarlo.',
     points: [
-      'Reconocer hacia dónde querés dirigir tu vida.',
-      'Tomar decisiones desde una consciencia nueva.',
-      'Avanzar con mayor confianza.',
-      'Convertir tu mundo interior en acciones concretas.',
-      'Crear una vida alineada con tus deseos conscientes.',
+      'Acá integrás el proceso vivido y lo llevás hacia una nueva etapa y consciencia.',
+      'Y aprendés a manifestar de forma simple con una herramienta poderosa.',
     ],
-    quote:
-      'Porque despertar no es solamente descubrir quién sos. Es empezar a vivir desde ese lugar.',
   },
 ]
 
@@ -517,6 +512,54 @@ export default function Page() {
                   solo estabas distraído.
                 </p>
               </div>
+            </div>
+
+            {/* ETAPA 4 */}
+            <div
+              id="etapa-04"
+              className="mx-auto mt-8 max-w-3xl rounded-[2rem] border border-[#8e765d]/20 bg-[#f8f2e8] p-7 shadow-[0_14px_45px_rgba(72,52,36,0.06)] sm:p-9 md:p-10"
+            >
+              <p className="text-sm font-semibold tracking-[0.18em] text-primary uppercase">
+                ETAPA 4
+              </p>
+
+              <h3 className="mt-3 font-serif font-soft text-[2rem] leading-[1.08] text-[#3f3025] sm:text-[2.2rem] md:text-4xl">
+                Una Vida alineada a tu Propósito
+              </h3>
+
+              <div className="mt-6 space-y-4 text-base leading-[1.8] text-[#5b4737] md:text-lg">
+                <p>
+                  A lo largo de Coherencia Interior vas a descubrir tu propósito
+                  actual, en esta etapa es donde lográs plasmarlo.
+                </p>
+              </div>
+
+              <details className="mt-7 rounded-2xl border border-primary/15 bg-white/35">
+                <summary className="cursor-pointer list-none px-5 py-4 font-medium text-[#4d392b]">
+                  <span className="inline-flex items-center gap-2">
+                    <span className="text-primary">+</span>
+                    MAS DETALLES
+                  </span>
+                </summary>
+
+                <ul className="space-y-3 px-5 pb-5 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                  <li className="flex gap-3">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
+                    <span>
+                      Acá integrás el proceso vivido y lo llevás hacia una nueva
+                      etapa y consciencia.
+                    </span>
+                  </li>
+
+                  <li className="flex gap-3">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
+                    <span>
+                      Y aprendés a manifestar de forma simple con una
+                      herramienta poderosa.
+                    </span>
+                  </li>
+                </ul>
+              </details>
             </div>
           </div>
         </section>

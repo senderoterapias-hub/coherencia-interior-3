@@ -93,101 +93,6 @@ export default function Page() {
           <div
             aria-hidden="true"
             className="pointer-events-none absolute -left-32 bottom-0 size-80 rounded-full bg-[#dfe4c8]/50 blur-3xl"
-          />import { CtaLink } from '@/components/cta-link'
-import { Handwritten, Sparkle } from '@/components/doodles'
-import { SiteFooter } from '@/components/site-footer'
-import { SiteHeader } from '@/components/site-header'
-import {
-  FULL_PROCESS_PRICE,
-  HOTMART_URL,
-} from '@/lib/site'
-
-const stages = [
-  {
-    number: '01',
-    eyebrow: 'COMPRENDER',
-    title:
-      'Comprendé por qué experimentás la vida de la forma en que lo hacés.',
-    intro:
-      'Aprendé a ser maestro de tu mundo interior y a comprender cómo funciona tu manera única de experimentar la vida.',
-    points: [
-      'Autorregular tu sistema nervioso.',
-      'Volver al centro y a la claridad en el día a día, incluso en momentos de crisis.',
-      'Percibir las distintas partes de tu ser: alma, mente, sentimiento y cuerpo.',
-      'Comprender cómo interactúan entre sí.',
-      'Descubrir tu manera única de experimentar la vida.',
-    ],
-    closing:
-      'Así como no existen dos huellas dactilares iguales, no existen dos auras iguales. En esta etapa comenzás a conocer tu propio mundo interno de una manera mucho más profunda y simple.',
-  },
-  {
-    number: '02',
-    eyebrow: 'LIBERAR',
-    title: 'Liberá eso que te ata a lo que ya no sos.',
-    intro:
-      'Una vez que empezás a comprender tu mundo interno, aparece el siguiente paso: liberar aquello que pertenece a una versión anterior de vos.',
-    points: [
-      'Reconocer programas mentales antiguos.',
-      'Liberar creencias vinculadas a viejas identidades.',
-      'Aprender a reprogramarte de forma simple y consciente.',
-      'Llevar tu nueva consciencia al mundo externo con mayor seguridad.',
-      'Trabajar sobre tu campo energético.',
-      'Liberar cargas y ataduras kármicas del alma.',
-    ],
-    quote:
-      'No se trata de luchar contra quien fuiste. Se trata de dejar de vivir desde una identidad que ya cumplió su función, para que pueda nacer tu verdadero ser.',
-    closing:
-      'La transformación no tiene que ser un proceso doloroso. Puede ser simple y poderosa.',
-  },
-  {
-    number: '03',
-    eyebrow: 'ESCUCHAR',
-    title: 'Escuchá tu voz interior.',
-    intro:
-      'Después de conocerte y liberar aquello que ya no corresponde, llega una pregunta más profunda:',
-    question: '¿Qué voz estoy escuchando?',
-    points: [
-      'Diferenciar la voz del ego de la voz de tu ser espiritual.',
-      'Reconocer tu guía interior.',
-      'Interpretar las sincronías.',
-      'Leer las señales que aparecen en tu camino.',
-      'Comprender el mapa que la vida va mostrando delante tuyo.',
-    ],
-    quote:
-      'Cuando aprendés a escucharte, empezás también a reconocer cómo la vida te responde.',
-  },
-  {
-    number: '04',
-    eyebrow: 'CREAR',
-    title: 'Una Vida alineada a tu Propósito',
-    intro:
-      'A lo largo de Coherencia Interior vas a descubrir tu propósito actual, en esta etapa es donde lográs plasmarlo.',
-    points: [
-      'Acá integrás el proceso vivido y lo llevás hacia una nueva etapa y consciencia.',
-      'Y aprendés a manifestar de forma simple con una herramienta poderosa.',
-    ],
-  },
-]
-
-export default function Page() {
-  return (
-    <>
-      <SiteHeader />
-
-      <main>
-        {/* HERO */}
-        <section
-          id="inicio"
-          className="relative overflow-hidden px-5 pb-16 pt-12 sm:pb-20 sm:pt-16 md:pb-28 md:pt-24"
-        >
-          <div
-            aria-hidden="true"
-            className="pointer-events-none absolute -right-32 top-10 size-72 rounded-full bg-[#eadcc6]/60 blur-3xl"
-          />
-
-          <div
-            aria-hidden="true"
-            className="pointer-events-none absolute -left-32 bottom-0 size-80 rounded-full bg-[#dfe4c8]/50 blur-3xl"
           />
 
           <div className="relative mx-auto max-w-4xl text-center">
@@ -195,12 +100,12 @@ export default function Page() {
               despertar · integración · expansión
             </Handwritten>
 
-            <h1 className="mt-4 font-serif font-soft text-[3.2rem] leading-[0.92] text-balance text-[#3b2a1f] sm:text-[4.2rem] md:text-7xl">
+            <h1 className="mt-4 font-serif font-soft text-[3rem] leading-[0.95] text-balance text-[#3b2a1f] sm:text-[4rem] md:text-6xl">
               Coherencia{' '}
               <span className="italic text-primary">Interior</span>
             </h1>
 
-            <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-[1.85rem] leading-[1.12] text-[#4d392b] text-balance sm:text-[2.35rem] md:text-5xl">
+            <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-[1.75rem] leading-[1.15] text-[#4d392b] text-balance sm:text-[2.2rem] md:text-[2.75rem]">
               El mapa para navegar tu mundo y crear un{' '}
               <span className="italic text-primary">Puente</span> entre tu
               Interior y tu Vida.
@@ -248,7 +153,7 @@ export default function Page() {
 
               <h2
                 id="para-quien-title"
-                className="mt-5 font-serif font-soft text-[2.5rem] leading-[1.06] text-balance md:text-[3.4rem]"
+                className="mt-5 font-serif font-soft text-[2.25rem] leading-[1.08] text-balance md:text-[3rem]"
               >
                 Quiero saber si este proceso es para vos:
               </h2>
@@ -263,7 +168,7 @@ export default function Page() {
                 </h3>
 
                 <ul className="mt-7 space-y-4">
-                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                  <li className="flex gap-3 text-[1.05rem] leading-[1.7] text-[#5b4737] md:text-lg">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
                     <span>
                       Están dispuestos a ver hacia adentro con compasión,
@@ -271,7 +176,7 @@ export default function Page() {
                     </span>
                   </li>
 
-                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                  <li className="flex gap-3 text-[1.05rem] leading-[1.7] text-[#5b4737] md:text-lg">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
                     <span>
                       Están dispuestos a hacer pequeñas prácticas diarias para
@@ -279,7 +184,7 @@ export default function Page() {
                     </span>
                   </li>
 
-                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                  <li className="flex gap-3 text-[1.05rem] leading-[1.7] text-[#5b4737] md:text-lg">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
                     <span>
                       Desean que su vida externa refleje su mundo interior y
@@ -287,7 +192,7 @@ export default function Page() {
                     </span>
                   </li>
 
-                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                  <li className="flex gap-3 text-[1.05rem] leading-[1.7] text-[#5b4737] md:text-lg">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
                     <span>
                       Sienten un llamado interno a ser parte del cambio y
@@ -304,7 +209,7 @@ export default function Page() {
                 </h3>
 
                 <ul className="mt-7 space-y-4">
-                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                  <li className="flex gap-3 text-[1.05rem] leading-[1.7] text-[#5b4737] md:text-lg">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-[#9b7650]" />
                     <span>
                       Buscan conexión espiritual y despertar dones solo por
@@ -312,7 +217,7 @@ export default function Page() {
                     </span>
                   </li>
 
-                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                  <li className="flex gap-3 text-[1.05rem] leading-[1.7] text-[#5b4737] md:text-lg">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-[#9b7650]" />
                     <span>
                       Desean conectar con los planos superiores pero no están
@@ -320,7 +225,7 @@ export default function Page() {
                     </span>
                   </li>
 
-                  <li className="flex gap-3 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                  <li className="flex gap-3 text-[1.05rem] leading-[1.7] text-[#5b4737] md:text-lg">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-[#9b7650]" />
                     <span>
                       Desean cambios rápidos y permanentes sin dedicarse cada
@@ -363,12 +268,12 @@ export default function Page() {
 
               <h2
                 id="mapa-title"
-                className="mt-4 font-serif font-soft text-[2.3rem] leading-[1.08] text-balance md:text-5xl"
+                className="mt-4 font-serif font-soft text-[2.15rem] leading-[1.1] text-balance md:text-[2.75rem]"
               >
                 Cuatro etapas. Un mismo proceso de transformación.
               </h2>
 
-              <p className="mx-auto mt-6 max-w-2xl leading-[1.8] text-muted-foreground md:text-lg">
+              <p className="mx-auto mt-6 max-w-2xl text-[1.05rem] leading-[1.8] text-muted-foreground md:text-lg">
                 Cada etapa profundiza un aspecto diferente de tu experiencia
                 hasta llevar esa nueva consciencia a tu vida cotidiana.
               </p>
@@ -411,7 +316,7 @@ export default function Page() {
 
               <h2
                 id="etapas-title"
-                className="mt-5 font-serif font-soft text-[2.3rem] leading-[1.08] text-balance md:text-5xl"
+                className="mt-5 font-serif font-soft text-[2.15rem] leading-[1.1] text-balance md:text-[2.75rem]"
               >
                 Cada Etapa es un paso Esencial del Proceso
               </h2>
@@ -426,11 +331,11 @@ export default function Page() {
                 ETAPA 1
               </p>
 
-              <h3 className="mt-3 font-serif font-soft text-[2rem] leading-[1.08] text-[#3f3025] sm:text-[2.2rem] md:text-4xl">
+              <h3 className="mt-3 font-serif font-soft text-[1.85rem] leading-[1.1] text-[#3f3025] sm:text-[2.05rem] md:text-[2.1rem]">
                 Comprensión Profunda y Mapa hacia el Centro
               </h3>
 
-              <div className="mt-6 space-y-4 text-base leading-[1.8] text-[#5b4737] md:text-lg">
+              <div className="mt-6 space-y-4 text-[1.05rem] leading-[1.8] text-[#5b4737] md:text-lg">
                 <p>
                   En esta etapa vas a comprender por qué experimentás lo que
                   experimentás.
@@ -450,7 +355,7 @@ export default function Page() {
                   </span>
                 </summary>
 
-                <ul className="space-y-3 px-5 pb-5 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                <ul className="space-y-3 px-5 pb-5 text-[1.05rem] leading-[1.7] text-[#5b4737] md:text-lg">
                   <li className="flex gap-3">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
                     <span>Regulá tu sistema nervioso.</span>
@@ -497,11 +402,11 @@ export default function Page() {
                 ETAPA 2
               </p>
 
-              <h3 className="mt-3 font-serif font-soft text-[2rem] leading-[1.08] text-[#3f3025] sm:text-[2.2rem] md:text-4xl">
+              <h3 className="mt-3 font-serif font-soft text-[1.85rem] leading-[1.1] text-[#3f3025] sm:text-[2.05rem] md:text-[2.1rem]">
                 Liberate de las cadenas que te limitan
               </h3>
 
-              <div className="mt-6 space-y-4 text-base leading-[1.8] text-[#5b4737] md:text-lg">
+              <div className="mt-6 space-y-4 text-[1.05rem] leading-[1.8] text-[#5b4737] md:text-lg">
                 <p>
                   Este paso es quizás el más importante, aquello que no
                   liberás te mantiene atado sin importar cuánto lo intentes.
@@ -516,7 +421,7 @@ export default function Page() {
                   </span>
                 </summary>
 
-                <ul className="space-y-3 px-5 pb-5 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                <ul className="space-y-3 px-5 pb-5 text-[1.05rem] leading-[1.7] text-[#5b4737] md:text-lg">
                   <li className="flex gap-3">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
                     <span>
@@ -564,7 +469,7 @@ export default function Page() {
                 ETAPA 3
               </p>
 
-              <h3 className="mt-3 font-serif font-soft text-[2rem] leading-[1.08] text-[#3f3025] sm:text-[2.2rem] md:text-4xl">
+              <h3 className="mt-3 font-serif font-soft text-[1.85rem] leading-[1.1] text-[#3f3025] sm:text-[2.05rem] md:text-[2.1rem]">
                 Conectá y desarrolla la guia interna y percepción
               </h3>
 
@@ -576,7 +481,7 @@ export default function Page() {
                   </span>
                 </summary>
 
-                <ul className="space-y-3 px-5 pb-5 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                <ul className="space-y-3 px-5 pb-5 text-[1.05rem] leading-[1.7] text-[#5b4737] md:text-lg">
                   <li className="flex gap-3">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
                     <span>
@@ -618,11 +523,11 @@ export default function Page() {
                 ETAPA 4
               </p>
 
-              <h3 className="mt-3 font-serif font-soft text-[2rem] leading-[1.08] text-[#3f3025] sm:text-[2.2rem] md:text-4xl">
+              <h3 className="mt-3 font-serif font-soft text-[1.85rem] leading-[1.1] text-[#3f3025] sm:text-[2.05rem] md:text-[2.1rem]">
                 Una Vida alineada a tu Propósito
               </h3>
 
-              <div className="mt-6 space-y-4 text-base leading-[1.8] text-[#5b4737] md:text-lg">
+              <div className="mt-6 space-y-4 text-[1.05rem] leading-[1.8] text-[#5b4737] md:text-lg">
                 <p>
                   A lo largo de Coherencia Interior vas a descubrir tu propósito
                   actual, en esta etapa es donde lográs plasmarlo.
@@ -637,7 +542,7 @@ export default function Page() {
                   </span>
                 </summary>
 
-                <ul className="space-y-3 px-5 pb-5 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                <ul className="space-y-3 px-5 pb-5 text-[1.05rem] leading-[1.7] text-[#5b4737] md:text-lg">
                   <li className="flex gap-3">
                     <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
                     <span>
@@ -719,7 +624,7 @@ export default function Page() {
 
             <h2
               id="ciclos-title"
-              className="mt-4 font-serif font-soft text-[2.45rem] leading-[1.02] text-balance text-[#3f3025] md:text-5xl"
+              className="mt-4 font-serif font-soft text-[2.25rem] leading-[1.06] text-balance text-[#3f3025] md:text-[2.75rem]"
             >
               La vida es rítmica, cíclica.
             </h2>
@@ -729,7 +634,7 @@ export default function Page() {
               convertirse en un espiral ascendente.
             </p>
 
-            <p className="mx-auto mt-7 max-w-2xl text-base leading-[1.85] text-muted-foreground text-pretty md:text-lg">
+            <p className="mx-auto mt-7 max-w-2xl text-[1.05rem] leading-[1.85] text-muted-foreground text-pretty md:text-lg">
               ¿Has notado cómo volvés a pasar por los mismos lugares, pero cada
               vez desde una consciencia más profunda y navegando de una forma
               más agradable?
@@ -742,7 +647,7 @@ export default function Page() {
                 internos con mayor facilidad.
               </p>
 
-              <div className="mt-6 space-y-4 text-base leading-[1.8] text-muted-foreground md:text-lg">
+              <div className="mt-6 space-y-4 text-[1.05rem] leading-[1.8] text-muted-foreground md:text-lg">
                 <p>Sin perder la conexión.</p>
 
                 <p>Sin quedar enganchado en lo antiguo.</p>
@@ -759,7 +664,7 @@ export default function Page() {
                 No es una fórmula mágica ni una promesa instantánea.
               </p>
 
-              <p className="mt-4 text-base italic leading-[1.8] text-muted-foreground md:text-lg">
+              <p className="mt-4 text-[1.05rem] italic leading-[1.8] text-muted-foreground md:text-lg">
                 Te pondrá a trabajar, jeje.
               </p>
             </div>
@@ -770,15 +675,15 @@ export default function Page() {
               </p>
 
               <div className="mt-6 space-y-4">
-                <div className="rounded-[1.5rem] border border-[#8e765d]/15 bg-card/80 px-5 py-5 text-base leading-[1.7] text-[#5b4737] backdrop-blur-sm sm:px-6 md:text-lg">
+                <div className="rounded-[1.5rem] border border-[#8e765d]/15 bg-card/80 px-5 py-5 text-[1.05rem] leading-[1.7] text-[#5b4737] backdrop-blur-sm sm:px-6 md:text-lg">
                   Los ciclos suceden, sea que aprendas a navegarlos o no.
                 </div>
 
-                <div className="rounded-[1.5rem] border border-[#8e765d]/15 bg-card/80 px-5 py-5 text-base leading-[1.7] text-[#5b4737] backdrop-blur-sm sm:px-6 md:text-lg">
+                <div className="rounded-[1.5rem] border border-[#8e765d]/15 bg-card/80 px-5 py-5 text-[1.05rem] leading-[1.7] text-[#5b4737] backdrop-blur-sm sm:px-6 md:text-lg">
                   Podés padecer cada ciclo y atravesarlo como puedas.
                 </div>
 
-                <div className="rounded-[1.5rem] border border-primary/25 bg-primary/[0.06] px-5 py-5 text-base leading-[1.7] text-[#4d3b2e] shadow-[0_8px_25px_rgba(72,52,36,0.04)] backdrop-blur-sm sm:px-6 md:text-lg">
+                <div className="rounded-[1.5rem] border border-primary/25 bg-primary/[0.06] px-5 py-5 text-[1.05rem] leading-[1.7] text-[#4d3b2e] shadow-[0_8px_25px_rgba(72,52,36,0.04)] backdrop-blur-sm sm:px-6 md:text-lg">
                   O disponerte a aprender a navegarlos cada vez con mayor
                   maestría.
                 </div>
@@ -788,7 +693,7 @@ export default function Page() {
             <div className="mx-auto mt-14 max-w-2xl">
               <div className="mx-auto mb-7 h-px w-16 bg-primary/30" />
 
-              <p className="text-base leading-[1.85] text-muted-foreground text-pretty md:text-lg">
+              <p className="text-[1.05rem] leading-[1.85] text-muted-foreground text-pretty md:text-lg">
                 Este proceso nació de años de aprendizajes propios, de un
                 deseo y una voluntad inmensos de aprender a navegar los ciclos
                 universales, y se consolidó a través del acompañamiento a
@@ -805,7 +710,7 @@ export default function Page() {
                 Este proceso no es un taller, ni un curso.
               </p>
 
-              <p className="mx-auto mt-5 max-w-xl text-base leading-[1.8] text-[#f8f2e8]/75 md:text-lg">
+              <p className="mx-auto mt-5 max-w-xl text-[1.05rem] leading-[1.8] text-[#f8f2e8]/75 md:text-lg">
                 Es una brújula que podría acompañarte el resto de tu vida, al
                 tiempo que aprendés a perfeccionarla.
               </p>
@@ -844,12 +749,12 @@ export default function Page() {
 
             <h2
               id="gratis-title"
-              className="mt-4 font-serif font-soft text-[2.4rem] leading-[1.05] text-balance md:text-5xl"
+              className="mt-4 font-serif font-soft text-[2.2rem] leading-[1.08] text-balance md:text-[2.75rem]"
             >
               Podés comenzar por la primera etapa.
             </h2>
 
-            <div className="mx-auto mt-7 max-w-2xl space-y-5 leading-[1.8] text-primary-foreground/80 text-pretty md:text-lg">
+            <div className="mx-auto mt-7 max-w-2xl space-y-5 text-[1.05rem] leading-[1.8] text-primary-foreground/80 text-pretty md:text-lg">
               <p>
                 Preparé una primera experiencia gratuita para que puedas
                 comenzar a entrar en contacto con este proceso.
@@ -896,12 +801,12 @@ export default function Page() {
 
             <h2
               id="continuidad-title"
-              className="mt-4 font-serif font-soft text-[2.3rem] leading-[1.08] text-balance md:text-5xl"
+              className="mt-4 font-serif font-soft text-[2.15rem] leading-[1.1] text-balance md:text-[2.75rem]"
             >
               Coherencia Interior continúa con vos.
             </h2>
 
-            <p className="mx-auto mt-7 max-w-2xl leading-[1.8] text-muted-foreground text-pretty md:text-lg">
+            <p className="mx-auto mt-7 max-w-2xl text-[1.05rem] leading-[1.8] text-muted-foreground text-pretty md:text-lg">
               Las cuatro etapas forman un recorrido completo para profundizar
               en tu mundo interior, liberar lo que ya no corresponde,
               desarrollar tu conexión con tu guía interior y llevar todo ese
@@ -917,7 +822,7 @@ export default function Page() {
                 Un espacio para vos
               </h3>
 
-              <p className="mt-4 leading-[1.8] text-[#6b5b4d]">
+              <p className="mt-4 text-[1.05rem] leading-[1.8] text-[#6b5b4d]">
                 Además de las 4 etapas, tenés una sesión 1 a 1 conmigo para
                 profundizar en tu proceso y trabajar de forma personalizada
                 aquello que estés atravesando.
@@ -958,7 +863,7 @@ export default function Page() {
 
             <h2
               id="final-title"
-              className="mt-7 font-serif font-soft text-[2.5rem] leading-[1.04] text-balance md:text-6xl"
+              className="mt-7 font-serif font-soft text-[2.3rem] leading-[1.07] text-balance md:text-5xl"
             >
               Despertar es el comienzo.
               <span className="mt-2 block italic text-primary">
@@ -966,7 +871,7 @@ export default function Page() {
               </span>
             </h2>
 
-            <p className="mx-auto mt-7 max-w-xl leading-[1.8] text-muted-foreground md:text-lg">
+            <p className="mx-auto mt-7 max-w-xl text-[1.05rem] leading-[1.8] text-muted-foreground md:text-lg">
               Comenzá sin apuro. Conocé tu mundo interior. Y dejá que la
               experiencia te muestre hacia dónde seguir.
             </p>

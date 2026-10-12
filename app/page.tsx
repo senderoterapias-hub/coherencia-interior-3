@@ -164,9 +164,53 @@ export default function Page() {
               </h2>
             </div>
 
-            <div className="mt-12 grid gap-8 md:grid-cols-2">
+            {/* TARJETAS */}
+            <div
+              className="
+                mt-12
+                flex
+                gap-4
+                overflow-x-auto
+                snap-x
+                snap-mandatory
+                pb-5
+                -mx-5
+                px-5
+                md:mx-0
+                md:grid
+                md:grid-cols-2
+                md:gap-8
+                md:overflow-visible
+                md:px-0
+                md:pb-0
+              "
+              style={{
+                scrollbarWidth: 'none',
+                msOverflowStyle: 'none',
+              }}
+            >
               {/* ES PARA VOS */}
-              <div className="rounded-[1.75rem] border border-primary/20 bg-[#f8f2e8] p-7 shadow-[0_10px_30px_rgba(72,52,36,0.05)] md:p-9">
+              <div
+                className="
+                  w-[84%]
+                  min-w-[84%]
+                  shrink-0
+                  snap-start
+                  rounded-[1.75rem]
+                  border
+                  border-primary/20
+                  bg-[#f8f2e8]
+                  p-7
+                  shadow-[0_10px_30px_rgba(72,52,36,0.05)]
+                  sm:w-[78%]
+                  sm:min-w-[78%]
+                  md:w-auto
+                  md:min-w-0
+                  md:shrink
+                  md:snap-none
+                  md:p-9
+                "
+              >
                 <h3 className="font-serif font-soft text-2xl text-[#3f3025] md:text-3xl">
                   Coherencia Interior es para quienes:
                 </h3>
@@ -207,7 +251,27 @@ export default function Page() {
               </div>
 
               {/* NO ES PARA VOS */}
-              <div className="rounded-[1.75rem] border border-[#8e765d]/20 bg-[#eee5d7] p-7 shadow-[0_10px_30px_rgba(72,52,36,0.05)] md:p-9">
+              <div
+                className="
+                  w-[84%]
+                  min-w-[84%]
+                  shrink-0
+                  snap-start
+                  rounded-[1.75rem]
+                  border
+                  border-[#8e765d]/20
+                  bg-[#eee5d7]
+                  p-7
+                  shadow-[0_10px_30px_rgba(72,52,36,0.05)]
+                  sm:w-[78%]
+                  sm:min-w-[78%]
+                  md:w-auto
+                  md:min-w-0
+                  md:shrink
+                  md:snap-none
+                  md:p-9
+                "
+              >
                 <h3 className="font-serif font-soft text-2xl text-[#3f3025] md:text-3xl">
                   Coherencia Interior NO es para quienes:
                 </h3>
@@ -258,6 +322,12 @@ export default function Page() {
               </p>
             </div>
           </div>
+
+          <style jsx>{`
+            div::-webkit-scrollbar {
+              display: none;
+            }
+          `}</style>
         </section>
 
         {/* MAPA DEL PROCESO */}

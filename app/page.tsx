@@ -88,7 +88,7 @@ export default function Page() {
         {/* HERO */}
         <section
           id="inicio"
-          className="relative overflow-hidden px-5 pb-20 pt-16 md:pb-28 md:pt-24"
+          className="relative overflow-hidden px-5 pb-16 pt-12 sm:pb-20 sm:pt-16 md:pb-28 md:pt-24"
         >
           <div
             aria-hidden="true"
@@ -101,34 +101,39 @@ export default function Page() {
           />
 
           <div className="relative mx-auto max-w-4xl text-center">
-            <Handwritten>despertar · integración · expansión</Handwritten>
+            <Handwritten>
+              despertar · integración · expansión
+            </Handwritten>
 
-            <h1 className="mt-4 font-serif font-soft text-[3.4rem] leading-[0.95] text-balance text-[#3b2a1f] sm:text-[4.5rem] md:text-7xl">
+            <h1 className="mt-4 font-serif font-soft text-[3.2rem] leading-[0.92] text-balance text-[#3b2a1f] sm:text-[4.2rem] md:text-7xl">
               Coherencia{' '}
               <span className="italic text-primary">Interior</span>
             </h1>
 
-            <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-[2rem] leading-[1.08] text-[#4d392b] text-balance sm:text-3xl md:text-5xl">
-              El proceso que crea un{' '}
-              <span className="italic text-primary">Puente</span> entre tu Ser
-              interior y tu Vida.
+            <h2 className="mx-auto mt-7 max-w-3xl font-serif font-soft text-[1.85rem] leading-[1.12] text-[#4d392b] text-balance sm:text-[2.35rem] md:text-5xl">
+              El mapa para navegar tu mundo y crear un{' '}
+              <span className="italic text-primary">Puente</span> entre tu
+              Interior y tu Vida.
             </h2>
 
-            <p className="mx-auto mt-8 max-w-3xl text-base leading-[1.8] text-[#5b4737] text-balance md:text-lg">
-              Una gran transformación puede comenzar con herramientas simples y
-              sostenibles en el Tiempo.
+            <div className="mx-auto mt-8 max-w-2xl space-y-5 text-[1rem] leading-[1.75] text-[#5b4737] text-balance sm:text-[1.05rem] md:mt-9 md:text-lg">
+              <p>
+                Los cambios que buscás no llegan con logros externos y
+                esfuerzo.
+              </p>
+
+              <p>
+                Se crean cuando lográs{' '}
+                <strong className="font-semibold text-[#3f3025]">SER</strong>{' '}
+                eso que deseás y sostenerlo en coherencia.
+              </p>
+            </div>
+
+            <p className="mx-auto mt-7 font-serif text-[1.2rem] leading-[1.45] text-[#5b4737] sm:text-[1.35rem] md:mt-8 md:text-2xl">
+              Conexión · Liviandad · Claridad · Propósito
             </p>
 
-            <p className="mx-auto mt-5 max-w-2xl text-base leading-[1.8] text-[#5b4737] text-balance md:text-lg">
-              No es necesario cambiar todo de un día para otro.
-            </p>
-
-            <p className="mx-auto mt-7 max-w-3xl font-serif text-xl leading-[1.55] text-[#5b4737] text-balance md:text-2xl">
-              Cuando comprendés cómo funciona tu Ser, descubrís que eso que
-              tanto te afectó podría ser una herramienta poderosa.
-            </p>
-
-            <div className="mt-7 flex flex-wrap items-center justify-center gap-2 text-sm text-muted-foreground">
+            <div className="mt-7 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-sm text-muted-foreground sm:mt-8">
               <span>4 etapas</span>
               <span aria-hidden="true">·</span>
               <span>Online</span>
@@ -445,31 +450,26 @@ export default function Page() {
           aria-labelledby="ciclos-title"
           className="relative isolate overflow-hidden px-5 py-20 md:py-28"
         >
-          {/* ATMÓSFERA CÓSMICA SUTIL */}
           <div
             aria-hidden="true"
             className="pointer-events-none absolute left-1/2 top-1/2 -z-10 size-[32rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#9b8ac4]/[0.045] blur-3xl md:size-[42rem]"
           />
 
-          {/* ÓRBITA GRANDE */}
           <div
             aria-hidden="true"
             className="pointer-events-none absolute left-1/2 top-1/2 -z-10 size-[25rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#8d78bd]/[0.12] rotate-[18deg] md:size-[38rem]"
           />
 
-          {/* SEGUNDA ÓRBITA */}
           <div
             aria-hidden="true"
             className="pointer-events-none absolute left-1/2 top-[47%] -z-10 h-[17rem] w-[29rem] -translate-x-1/2 -translate-y-1/2 rounded-[50%] border border-[#a18dcc]/[0.09] rotate-[-24deg] md:h-[25rem] md:w-[42rem]"
           />
 
-          {/* TERCERA ÓRBITA */}
           <div
             aria-hidden="true"
             className="pointer-events-none absolute left-1/2 top-[53%] -z-10 h-[11rem] w-[25rem] -translate-x-1/2 -translate-y-1/2 rounded-[50%] border border-[#8d78bd]/[0.07] rotate-[42deg] md:h-[17rem] md:w-[34rem]"
           />
 
-          {/* HALOS VIOLETA */}
           <div
             aria-hidden="true"
             className="pointer-events-none absolute -left-24 top-24 -z-10 size-72 rounded-full bg-[#9d8bc7]/[0.07] blur-3xl"
@@ -480,7 +480,6 @@ export default function Page() {
             className="pointer-events-none absolute -right-24 bottom-24 -z-10 size-80 rounded-full bg-[#a997cf]/[0.06] blur-3xl"
           />
 
-          {/* PEQUEÑOS PUNTOS */}
           <span
             aria-hidden="true"
             className="absolute left-[12%] top-[18%] size-1.5 rounded-full bg-[#8d78bd]/30 shadow-[0_0_12px_rgba(141,120,189,0.35)]"

@@ -166,7 +166,6 @@ export default function Page() {
 
             {/* CARRUSEL EN MÓVIL / 2 COLUMNAS EN DESKTOP */}
             <div className="mt-12 -mx-5 flex w-[calc(100%+40px)] gap-4 overflow-x-auto px-5 pb-4 snap-x snap-mandatory [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:mx-0 md:grid md:w-auto md:grid-cols-2 md:gap-8 md:overflow-visible md:px-0 md:pb-0">
-              
               {/* ES PARA VOS */}
               <div className="w-[calc(100vw-56px)] min-w-[calc(100vw-56px)] shrink-0 snap-start rounded-[1.75rem] border border-primary/20 bg-[#f8f2e8] p-7 shadow-[0_10px_30px_rgba(72,52,36,0.05)] md:w-auto md:min-w-0 md:shrink md:p-9">
                 <h3 className="font-serif font-soft text-2xl text-[#3f3025] md:text-3xl">
@@ -462,6 +461,60 @@ export default function Page() {
                 <p className="mt-4 font-serif text-[1.05rem] leading-[1.65] text-[#5b4737] sm:text-lg">
                   Puede ser un proceso de disfrute e integración y aun así
                   poderoso.
+                </p>
+              </div>
+            </div>
+
+            {/* ETAPA 3 */}
+            <div
+              id="etapa-03"
+              className="mx-auto mt-8 max-w-3xl rounded-[2rem] border border-[#8e765d]/20 bg-[#f8f2e8] p-7 shadow-[0_14px_45px_rgba(72,52,36,0.06)] sm:p-9 md:p-10"
+            >
+              <p className="text-sm font-semibold tracking-[0.18em] text-primary uppercase">
+                ETAPA 3
+              </p>
+
+              <h3 className="mt-3 font-serif font-soft text-[2rem] leading-[1.08] text-[#3f3025] sm:text-[2.2rem] md:text-4xl">
+                Conectá y desarrolla la guia interna y percepción
+              </h3>
+
+              <details className="mt-7 rounded-2xl border border-primary/15 bg-white/35">
+                <summary className="cursor-pointer list-none px-5 py-4 font-medium text-[#4d392b]">
+                  <span className="inline-flex items-center gap-2">
+                    <span className="text-primary">+</span>
+                    MAS DETALLES
+                  </span>
+                </summary>
+
+                <ul className="space-y-3 px-5 pb-5 text-base leading-[1.7] text-[#5b4737] md:text-lg">
+                  <li className="flex gap-3">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
+                    <span>
+                      Aprendés a diferenciar la voz del ego de la voz de tu ser
+                      espiritual.
+                    </span>
+                  </li>
+
+                  <li className="flex gap-3">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
+                    <span>
+                      Trabajamos en reconocer y cultivar tu guía interior.
+                    </span>
+                  </li>
+
+                  <li className="flex gap-3">
+                    <span className="mt-2 size-2 shrink-0 rounded-full bg-primary" />
+                    <span>
+                      Aprendés a interpretar las señales y sincronicidades.
+                    </span>
+                  </li>
+                </ul>
+              </details>
+
+              <div className="mt-8 rounded-[1.5rem] border border-primary/10 bg-[#efe5d6]/55 px-5 py-5 sm:px-6 sm:py-6">
+                <p className="font-serif text-[1.05rem] leading-[1.65] text-[#5b4737] sm:text-lg">
+                  Cuando prestás atención descubrís que nunca estuviste solo,
+                  solo estabas distraído.
                 </p>
               </div>
             </div>

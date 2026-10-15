@@ -1,6 +1,6 @@
+```tsx
 import { CtaLink } from '@/components/cta-link'
 import { Sparkle, Squiggle } from '@/components/doodles'
-import { FIRST_STAGE_URL } from '@/lib/site'
 
 export function MainCta() {
   return (
@@ -28,7 +28,7 @@ export function MainCta() {
           <p className="mt-6 leading-relaxed text-primary-foreground/80 text-pretty">
             Entrá, mirá con calma y quedate el tiempo que necesites.
           </p>
-          <CtaLink href={FIRST_STAGE_URL} variant="butter" className="mt-9 w-full sm:w-auto">
+          <CtaLink href="/acceso" variant="butter" className="mt-9 w-full sm:w-auto">
             Comenzar la primera etapa
           </CtaLink>
           <p className="mt-5 text-sm text-primary-foreground/70">Gratuito. Sin compromiso.</p>
@@ -37,3 +37,4 @@ export function MainCta() {
     </section>
   )
 }
+```

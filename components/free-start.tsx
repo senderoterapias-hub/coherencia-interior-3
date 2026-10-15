@@ -1,3 +1,4 @@
+```tsx
 import { CtaLink } from '@/components/cta-link'
 import { HandCircle, Handwritten, Sparkle } from '@/components/doodles'
 import { Headphones, NotebookPen, Video } from 'lucide-react'
@@ -92,7 +93,7 @@ export function FreeStart() {
             })}
           </div>
 
-          <CtaLink href="/primera-etapa" className="mt-9 w-full sm:w-auto" pulse>
+          <CtaLink href="/acceso" className="mt-9 w-full sm:w-auto" pulse>
             VIVIR LA PRIMERA EXPERIENCIA
           </CtaLink>
 
@@ -104,3 +105,4 @@ export function FreeStart() {
     </section>
   )
 }
+```

@@ -761,19 +761,18 @@ export default function Page() {
               className="mt-10 -mx-5 flex snap-x snap-mandatory gap-5 overflow-x-auto px-5 pb-5 [scrollbar-width:thin] [scrollbar-color:#9a8065_transparent] md:mx-0 md:gap-6 md:px-1"
             >
               {[
-                { src: '/testimonios/testimonio-01.JPG', alt: 'Testimonio de una participante sobre la experiencia de Coherencia Interior' },
-                { src: '/testimonios/testimonio-02.JPG', alt: 'Mensaje de agradecimiento de una participante' },
-                { src: '/testimonios/testimonio-03.JPG', alt: 'Experiencia compartida por una participante del proceso' },
-                { src: '/testimonios/testimonio-04.JPG', alt: 'Testimonio sobre los aprendizajes del proceso' },
-                { src: '/testimonios/testimonio-05.JPG', alt: 'Mensaje de una persona que recorrió Coherencia Interior' },
-                { src: '/testimonios/testimonio-06.JPG', alt: 'Experiencia personal compartida durante el proceso' },
-                { src: '/testimonios/testimonio-07.JPG', alt: 'Testimonio de una participante sobre su recorrido interior' },
-                { src: '/testimonios/testimonio-08.JPG', alt: 'Mensaje de agradecimiento por el acompañamiento' },
-                { src: '/testimonios/testimonio-09.JPG', alt: 'Reflexión de una participante de Coherencia Interior' },
-                { src: '/testimonios/testimonio-10.JPG', alt: 'Testimonio sobre la claridad y las herramientas recibidas' },
-                { src: '/testimonios/testimonio-11.JPG', alt: 'Experiencia compartida por una persona que hizo el proceso' },
-                { src: '/testimonios/testimonio-12.JPG', alt: 'Mensaje de una participante sobre su experiencia' },
-                { src: '/testimonios/testimonio-13.JPG', alt: 'Testimonio adicional de Coherencia Interior' },
+                { src: '/testimonio-01.JPG', alt: 'Testimonio de una participante sobre la experiencia de Coherencia Interior' },
+                { src: '/testimonio-02.JPG', alt: 'Mensaje de agradecimiento de una participante' },
+                { src: '/testimonio-03.JPG', alt: 'Experiencia compartida por una participante del proceso' },
+                { src: '/testimonio-04.JPG', alt: 'Testimonio sobre los aprendizajes del proceso' },
+                { src: '/testimonio-05.JPG', alt: 'Mensaje de una persona que recorrió Coherencia Interior' },
+                { src: '/testimonio-06.JPG', alt: 'Experiencia personal compartida durante el proceso' },
+                { src: '/testimonio-07.JPG', alt: 'Testimonio de una participante sobre su recorrido interior' },
+                { src: '/testimonio-08.JPG', alt: 'Mensaje de agradecimiento por el acompañamiento' },
+                { src: '/testimonio-09.JPG', alt: 'Reflexión de una participante de Coherencia Interior' },
+                { src: '/testimonio-10.JPG', alt: 'Testimonio sobre la claridad y las herramientas recibidas' },
+                { src: '/testimonio-11.JPG', alt: 'Experiencia compartida por una persona que hizo el proceso' },
+                { src: '/testimonio-12.JPG', alt: 'Mensaje de una participante sobre su experiencia' },
               ].map((item, index) => (
                 <figure
                   key={item.src}

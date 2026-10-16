@@ -737,6 +737,64 @@ export default function Page() {
           </div>
         </section>
 
+        {/* TESTIMONIOS */}
+        <section
+          aria-labelledby="testimonios-title"
+          className="overflow-hidden bg-[#f5eee2] px-5 py-20 md:py-24"
+        >
+          <div className="mx-auto max-w-6xl">
+            <div className="mx-auto max-w-3xl text-center">
+              <Handwritten>experiencias reales</Handwritten>
+              <h2
+                id="testimonios-title"
+                className="mt-4 font-serif font-soft text-[2.25rem] leading-[1.08] text-balance text-[#3f3025] md:text-[3rem]"
+              >
+                Quienes ya lo vivieron
+              </h2>
+              <p className="mx-auto mt-5 max-w-2xl text-[1.05rem] leading-[1.8] text-[#6b5847] md:text-lg">
+                Algunas palabras y experiencias de personas que recorrieron este camino.
+              </p>
+            </div>
+
+            <div
+              aria-label="Testimonios de Coherencia Interior. Deslizá para ver más experiencias."
+              className="mt-10 -mx-5 flex snap-x snap-mandatory gap-5 overflow-x-auto px-5 pb-5 [scrollbar-width:thin] [scrollbar-color:#9a8065_transparent] md:mx-0 md:gap-6 md:px-1"
+            >
+              {[
+                { src: '/testimonios/testimonio-01.JPG', alt: 'Testimonio de una participante sobre la experiencia de Coherencia Interior' },
+                { src: '/testimonios/testimonio-02.JPG', alt: 'Mensaje de agradecimiento de una participante' },
+                { src: '/testimonios/testimonio-03.JPG', alt: 'Experiencia compartida por una participante del proceso' },
+                { src: '/testimonios/testimonio-04.JPG', alt: 'Testimonio sobre los aprendizajes del proceso' },
+                { src: '/testimonios/testimonio-05.JPG', alt: 'Mensaje de una persona que recorrió Coherencia Interior' },
+                { src: '/testimonios/testimonio-06.JPG', alt: 'Experiencia personal compartida durante el proceso' },
+                { src: '/testimonios/testimonio-07.JPG', alt: 'Testimonio de una participante sobre su recorrido interior' },
+                { src: '/testimonios/testimonio-08.JPG', alt: 'Mensaje de agradecimiento por el acompañamiento' },
+                { src: '/testimonios/testimonio-09.JPG', alt: 'Reflexión de una participante de Coherencia Interior' },
+                { src: '/testimonios/testimonio-10.JPG', alt: 'Testimonio sobre la claridad y las herramientas recibidas' },
+                { src: '/testimonios/testimonio-11.JPG', alt: 'Experiencia compartida por una persona que hizo el proceso' },
+                { src: '/testimonios/testimonio-12.JPG', alt: 'Mensaje de una participante sobre su experiencia' },
+                { src: '/testimonios/testimonio-13.JPG', alt: 'Testimonio adicional de Coherencia Interior' },
+              ].map((item, index) => (
+                <figure
+                  key={item.src}
+                  className="w-[min(82vw,340px)] shrink-0 snap-start overflow-hidden rounded-[1.5rem] border border-[#8e765d]/20 bg-white p-2 shadow-[0_12px_32px_rgba(72,52,36,0.09)] sm:w-[320px] md:w-[340px]"
+                >
+                  <img
+                    src={item.src}
+                    alt={item.alt}
+                    loading={index < 3 ? 'eager' : 'lazy'}
+                    className="h-[390px] w-full rounded-[1rem] object-contain sm:h-[420px]"
+                  />
+                </figure>
+              ))}
+            </div>
+
+            <p className="mt-2 text-center text-sm text-[#806b56]">
+              Deslizá para conocer más experiencias <span aria-hidden="true">→</span>
+            </p>
+          </div>
+        </section>
+
         {/* PRIMERA ETAPA GRATUITA */}
         <section
           aria-labelledby="gratis-title"
@@ -776,7 +834,7 @@ export default function Page() {
             </div>
 
             <CtaLink
-              href="/acceso"
+              href="/primera-etapa"
               variant="butter"
               className="mt-9 w-full shadow-[0_0_25px_rgba(255,255,255,0.16)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(255,255,255,0.28)] sm:w-auto"
             >
@@ -877,7 +935,7 @@ export default function Page() {
             </p>
 
             <CtaLink
-              href="/acceso"
+              href="/primera-etapa"
               className="mt-9 w-full shadow-[0_0_25px_rgba(112,122,61,0.22)] transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_35px_rgba(112,122,61,0.38)] sm:w-auto"
               pulse
             >

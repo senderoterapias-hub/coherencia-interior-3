@@ -398,7 +398,7 @@ export default function PrimeraEtapaPage() {
                   href="https://wa.me/59897792729?text=Hola%2C%20estoy%20viviendo%20la%20primera%20etapa%20de%20coherencia%20interior%20y%20tengo%20algunas%20preguntas"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex w-full items-center justify-center rounded-full border border-[#D8C9B2] bg-transparent px-6 py-3.5 text-sm font-medium text-[#F0E7D8] transition-all duration-300 hover:border-[#F0E7D8] hover:bg-white/5 sm:w-auto"
+                  className="mt-4 inline-flex w-full items-center justify-center rounded-full border border-[#C8B79D] bg-[#F0E7D8] px-6 py-3.5 text-sm font-semibold text-[#343B32] shadow-sm transition-all duration-300 hover:bg-[#E4D4B6] sm:w-auto"
                 >
                   Quiero hablar con Adrián
                 </a>

@@ -77,20 +77,20 @@ export default function PrimeraEtapaPage() {
         {/* TRANSICIÓN DE ENTRADA */}
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute inset-x-0 top-0 z-0 h-40 bg-gradient-to-b from-background via-[#F1E7D7]/80 to-[#EDE2D0]"
+          className="pointer-events-none absolute inset-x-0 top-0 z-0 h-40 bg-gradient-to-b from-background via-[#55594B]/80 to-[#343B32]"
         />
 
         {/* ATMÓSFERA SUTIL */}
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute inset-0 z-0 opacity-25"
+          className="pointer-events-none absolute inset-0 z-0 opacity-80"
           style={{
             backgroundImage:
-              'radial-gradient(circle at 15% 20%, rgba(95,107,58,0.10) 0, transparent 24%), radial-gradient(circle at 88% 72%, rgba(200,121,90,0.08) 0, transparent 26%)',
+               'radial-gradient(ellipse at 12% 12%, rgba(173, 159, 126, 0.16) 0, transparent 32%), radial-gradient(ellipse at 88% 35%, rgba(142, 153, 119, 0.13) 0, transparent 30%), radial-gradient(ellipse at 48% 85%, rgba(115, 89, 68, 0.22) 0, transparent 38%), repeating-linear-gradient(118deg, rgba(245, 235, 215, 0.018) 0px, rgba(245, 235, 215, 0.018) 1px, transparent 1px, transparent 5px)' ,
           }}
         />
 
-        <div className="relative z-10 bg-[#EDE2D0]">
+        <div className="relative z-10 bg-[#343B32] text-[#F0E7D8]">
           {/* 01 — MIRAR */}
           <section
             id="mirar"
@@ -99,7 +99,7 @@ export default function PrimeraEtapaPage() {
           >
             <div className="mx-auto max-w-5xl">
               <div className="mb-10 text-center">
-                <span className="inline-flex items-center gap-2 text-sm font-medium tracking-[0.18em] text-primary uppercase">
+                <span className="inline-flex items-center gap-2 text-sm font-medium tracking-[0.18em] text-[#B8C3A2] uppercase">
                   <Video className="size-4" strokeWidth={1.5} />
                   01 · Mirar
                 </span>
@@ -111,13 +111,13 @@ export default function PrimeraEtapaPage() {
                   La clase
                 </h2>
 
-                <p className="mx-auto mt-5 max-w-xl leading-[1.8] text-muted-foreground text-pretty md:text-lg">
+                <p className="mx-auto mt-5 max-w-xl leading-[1.8] text-[#D7D1C4] text-pretty md:text-lg">
                   Comenzá por la clase. Es el punto de partida para comprender
                   dónde estás y empezar a observar tu propia experiencia.
                 </p>
               </div>
 
-              <div className="overflow-hidden rounded-[1.75rem] bg-card p-2 shadow-sm ring-1 ring-foreground/5 md:p-3">
+              <div className="overflow-hidden rounded-[1.75rem] bg-[#E8DFD0] p-2 text-[#343B32] shadow-[0_18px_55px_rgba(0,0,0,0.22)] ring-1 ring-[#F0E7D8]/15 md:p-3">
                 <div className="aspect-video overflow-hidden rounded-[1.25rem] bg-black">
                   <iframe
                     className="h-full w-full"
@@ -134,10 +134,10 @@ export default function PrimeraEtapaPage() {
           {/* 02 — EXPERIMENTAR */}
           <section
             aria-labelledby="experimentar-title"
-            className="bg-[#E7DBC8]/55 px-4 py-16 md:py-24"
+            className="relative px-4 py-16 md:py-24"
           >
             <div className="mx-auto max-w-3xl text-center">
-              <span className="inline-flex items-center gap-2 text-sm font-medium tracking-[0.18em] text-primary uppercase">
+              <span className="inline-flex items-center gap-2 text-sm font-medium tracking-[0.18em] text-[#B8C3A2] uppercase">
                 <Headphones className="size-4" strokeWidth={1.5} />
                 02 · Experimentar
               </span>
@@ -149,12 +149,12 @@ export default function PrimeraEtapaPage() {
                 La meditación
               </h2>
 
-              <p className="mx-auto mt-5 max-w-xl leading-[1.8] text-muted-foreground text-pretty md:text-lg">
+              <p className="mx-auto mt-5 max-w-xl leading-[1.8] text-[#D7D1C4] text-pretty md:text-lg">
                 Después de la clase, podés continuar con esta práctica.
                 Buscá un momento tranquilo y permitite experimentar sin apuro.
               </p>
 
-              <div className="mx-auto mt-10 max-w-xl rounded-[1.75rem] bg-card p-7 ring-1 ring-foreground/5 md:p-10">
+              <div className="mx-auto mt-10 max-w-xl rounded-[1.75rem] bg-[#E8DFD0] p-7 text-[#343B32] shadow-[0_18px_55px_rgba(0,0,0,0.18)] ring-1 ring-[#F0E7D8]/15 md:p-10">
                 <div className="mx-auto flex size-14 items-center justify-center rounded-full bg-butter">
                   <Play
                     aria-hidden="true"
@@ -168,7 +168,7 @@ export default function PrimeraEtapaPage() {
                   Meditación guiada
                 </h3>
 
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground md:text-base">
+                <p className="mt-3 text-sm leading-relaxed text-[#625F54] md:text-base">
                   Una práctica para llevar la experiencia de la clase a tu
                   propio espacio interior.
                 </p>
@@ -185,7 +185,7 @@ export default function PrimeraEtapaPage() {
                   Tu navegador no puede reproducir este audio.
                 </audio>
 
-                <p className="mt-4 text-xs text-muted-foreground">
+                <p className="mt-4 text-xs text-[#625F54]">
                   Podés escucharla cuando quieras y volver a ella las veces que
                   necesites.
                 </p>
@@ -199,7 +199,7 @@ export default function PrimeraEtapaPage() {
             className="px-4 py-16 md:py-24"
           >
             <div className="mx-auto max-w-4xl text-center">
-              <span className="inline-flex items-center gap-2 text-sm font-medium tracking-[0.18em] text-primary uppercase">
+              <span className="inline-flex items-center gap-2 text-sm font-medium tracking-[0.18em] text-[#B8C3A2] uppercase">
                 <NotebookPen className="size-4" strokeWidth={1.5} />
                 03 · Integrar
               </span>
@@ -211,14 +211,14 @@ export default function PrimeraEtapaPage() {
                 La bitácora
               </h2>
 
-              <p className="mx-auto mt-5 max-w-xl leading-[1.8] text-muted-foreground text-pretty md:text-lg">
+              <p className="mx-auto mt-5 max-w-xl leading-[1.8] text-[#D7D1C4] text-pretty md:text-lg">
                 La bitácora es un espacio para registrar lo que vas
                 descubriendo, poner en palabras tu experiencia y profundizar el
                 proceso.
               </p>
 
-              <div className="mx-auto mt-10 max-w-2xl overflow-hidden rounded-[1.75rem] bg-card ring-1 ring-foreground/5">
-                <div className="aspect-[3/4] bg-background">
+              <div className="mx-auto mt-10 max-w-2xl overflow-hidden rounded-[1.75rem] bg-[#E8DFD0] text-[#343B32] shadow-[0_18px_55px_rgba(0,0,0,0.18)] ring-1 ring-[#F0E7D8]/15">
+                <div className="aspect-[3/4] bg-[#E8DFD0]">
                   <iframe
                     className="h-full w-full"
                     src="/Bitacora%20de%20acompan%CC%83amiento.pdf"
@@ -231,7 +231,7 @@ export default function PrimeraEtapaPage() {
                     href="/Bitacora%20de%20acompan%CC%83amiento.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+                    className="inline-flex items-center justify-center rounded-full bg-[#AAB39A] px-6 py-3 text-sm font-medium text-[#283027] transition-opacity hover:opacity-90"
                   >
                     Abrir bitácora
                   </a>
@@ -239,7 +239,7 @@ export default function PrimeraEtapaPage() {
                   <a
                     href="/Bitacora%20de%20acompan%CC%83amiento.pdf"
                     download
-                    className="inline-flex items-center justify-center rounded-full border border-foreground/15 px-6 py-3 text-sm font-medium transition-colors hover:bg-card"
+                    className="inline-flex items-center justify-center rounded-full border border-[#F0E7D8]/30 px-6 py-3 text-sm font-medium transition-colors hover:bg-[#F0E7D8]/10"
                   >
                     Descargar
                   </a>
@@ -263,21 +263,21 @@ export default function PrimeraEtapaPage() {
                 Comprender es el primer paso.
               </h2>
 
-              <p className="mx-auto mt-6 max-w-xl text-base leading-[1.8] text-muted-foreground text-pretty md:text-lg">
+              <p className="mx-auto mt-6 max-w-xl text-base leading-[1.8] text-[#D7D1C4] text-pretty md:text-lg">
                 Lo que sigue es llevar esa comprensión a tu vida.
               </p>
 
               <div className="mx-auto mt-8 flex max-w-md flex-col gap-3">
                 <a
                   href="#mirar"
-                  className="inline-flex min-h-14 w-full items-center justify-center rounded-full bg-primary px-7 py-4 text-sm font-medium text-primary-foreground shadow-[0_4px_0_0_rgba(59,42,31,0.15)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#535e31]"
+                  className="inline-flex min-h-14 w-full items-center justify-center rounded-full bg-[#AAB39A] px-7 py-4 text-sm font-medium text-[#283027] shadow-[0_4px_0_0_rgba(59,42,31,0.15)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#C0C9AE]"
                 >
                   VIVIR LA ETAPA 1
                 </a>
 
                 <a
                   href="#siguientes-etapas"
-                  className="inline-flex min-h-14 w-full items-center justify-center rounded-full border border-foreground/15 bg-card/60 px-7 py-4 text-sm font-medium text-foreground transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/30 hover:bg-card"
+                  className="inline-flex min-h-14 w-full items-center justify-center rounded-full border border-[#F0E7D8]/30 bg-[#F0E7D8]/8 px-7 py-4 text-sm font-medium text-[#F0E7D8] transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/30 hover:bg-[#F0E7D8]/10"
                 >
                   DESPUÉS DE DAR EL PASO
                   <span className="ml-2">↓</span>
@@ -305,23 +305,23 @@ export default function PrimeraEtapaPage() {
               </h2>
 
               <div className="mx-auto mt-9 max-w-2xl space-y-4 text-left">
-                <div className="rounded-[1.35rem] border border-foreground/10 bg-card/65 px-5 py-5 text-[15px] leading-[1.7] text-muted-foreground md:px-6 md:text-base">
-                  <span className="mr-3 font-serif text-lg text-primary">
+                <div className="rounded-[1.35rem] border border-[#F0E7D8]/15 bg-[#F0E7D8]/7 px-5 py-5 text-[15px] leading-[1.7] text-[#D7D1C4] md:px-6 md:text-base">
+                  <span className="mr-3 font-serif text-lg text-[#B8C3A2]">
                     02
                   </span>
                   Liberarte de aquello que no te permite avanzar como deseás.
                 </div>
 
-                <div className="rounded-[1.35rem] border border-foreground/10 bg-card/65 px-5 py-5 text-[15px] leading-[1.7] text-muted-foreground md:px-6 md:text-base">
-                  <span className="mr-3 font-serif text-lg text-primary">
+                <div className="rounded-[1.35rem] border border-[#F0E7D8]/15 bg-[#F0E7D8]/7 px-5 py-5 text-[15px] leading-[1.7] text-[#D7D1C4] md:px-6 md:text-base">
+                  <span className="mr-3 font-serif text-lg text-[#B8C3A2]">
                     03
                   </span>
                   Despertar una mayor conexión con tu Guía Superior y aprender a
                   fluir verdaderamente con ella.
                 </div>
 
-                <div className="rounded-[1.35rem] border border-foreground/10 bg-card/65 px-5 py-5 text-[15px] leading-[1.7] text-muted-foreground md:px-6 md:text-base">
-                  <span className="mr-3 font-serif text-lg text-primary">
+                <div className="rounded-[1.35rem] border border-[#F0E7D8]/15 bg-[#F0E7D8]/7 px-5 py-5 text-[15px] leading-[1.7] text-[#D7D1C4] md:px-6 md:text-base">
+                  <span className="mr-3 font-serif text-lg text-[#B8C3A2]">
                     04
                   </span>
                   Manifestar una realidad consciente y coherente con quien sos
@@ -330,13 +330,13 @@ export default function PrimeraEtapaPage() {
               </div>
 
               <div className="mx-auto mt-11 max-w-xl">
-                <p className="font-serif font-soft text-xl leading-[1.5] text-foreground md:text-2xl">
+                <p className="font-serif font-soft text-xl leading-[1.5] text-[#F0E7D8] md:text-2xl">
                   De comprenderte a transformarte.
                   <br />
                   De conectarte a vivir en coherencia.
                 </p>
 
-                <p className="mt-5 text-sm leading-relaxed text-muted-foreground md:text-base">
+                <p className="mt-5 text-sm leading-relaxed text-[#D7D1C4] md:text-base">
                   Ese es el recorrido de las 4 etapas.
                 </p>
               </div>
@@ -349,13 +349,13 @@ export default function PrimeraEtapaPage() {
             className="px-4 pb-24 pt-4 md:pb-32 md:pt-8"
           >
             <div className="mx-auto max-w-3xl">
-              <div className="relative overflow-hidden rounded-[2rem] bg-card p-7 text-center shadow-sm ring-1 ring-primary/15 md:p-12">
+              <div className="relative overflow-hidden rounded-[2rem] bg-[#E8DFD0] p-7 text-center text-[#343B32] shadow-[0_18px_55px_rgba(0,0,0,0.2)] ring-1 ring-[#AAB39A]/40 md:p-12">
                 <div
                   aria-hidden="true"
-                  className="absolute inset-x-0 top-0 h-1 bg-primary"
+                  className="absolute inset-x-0 top-0 h-1 bg-[#AAB39A]"
                 />
 
-                <span className="inline-flex items-center rounded-full bg-butter px-4 py-2 text-[0.68rem] font-semibold tracking-[0.16em] text-foreground uppercase ring-1 ring-foreground/10">
+                <span className="inline-flex items-center rounded-full bg-butter px-4 py-2 text-[0.68rem] font-semibold tracking-[0.16em] text-[#F0E7D8] uppercase ring-1 ring-foreground/10">
                   Incluido en el proceso completo
                 </span>
 
@@ -370,16 +370,16 @@ export default function PrimeraEtapaPage() {
                   ¿Viviste la primera etapa y querés continuar?
                 </h2>
 
-                <p className="mx-auto mt-6 max-w-2xl text-base leading-[1.8] text-muted-foreground text-pretty md:text-lg">
+                <p className="mx-auto mt-6 max-w-2xl text-base leading-[1.8] text-[#D7D1C4] text-pretty md:text-lg">
                   Podés ingresar en el botón o escribirme.
                 </p>
 
                 <div className="mx-auto mt-7 max-w-xl text-left">
-                  <p className="font-serif font-soft text-lg leading-snug text-foreground md:text-xl">
+                  <p className="font-serif font-soft text-lg leading-snug text-[#F0E7D8] md:text-xl">
                     Tu participación en el proceso incluye:
                   </p>
 
-                  <p className="mt-4 text-base leading-[1.8] text-muted-foreground md:text-lg">
+                  <p className="mt-4 text-base leading-[1.8] text-[#625F54] md:text-lg">
                     Un encuentro 1 a 1 de 30 minutos para guiarte y ayudarte a
                     descubrir cuál es la mejor manera de abordar Coherencia
                     Interior para vos.
@@ -389,7 +389,7 @@ export default function PrimeraEtapaPage() {
                 <CtaLink
                   href={HOTMART_URL}
                   variant="primary"
-                  className="mt-8 w-full bg-primary text-primary-foreground shadow-[0_5px_0_0_rgba(59,42,31,0.18)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#535e31] hover:shadow-[0_7px_0_0_rgba(59,42,31,0.18)] sm:w-auto"
+                  className="mt-8 w-full bg-[#AAB39A] text-[#283027] shadow-[0_5px_0_0_rgba(59,42,31,0.18)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#C0C9AE] hover:shadow-[0_7px_0_0_rgba(59,42,31,0.18)] sm:w-auto"
                 >
                   Quiero continuar con Coherencia Interior
                 </CtaLink>
@@ -401,7 +401,7 @@ export default function PrimeraEtapaPage() {
         {/* TRANSICIÓN DE SALIDA */}
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute inset-x-0 bottom-0 z-20 h-40 bg-gradient-to-t from-background via-[#F1E7D7]/80 to-transparent"
+          className="pointer-events-none absolute inset-x-0 bottom-0 z-20 h-40 bg-gradient-to-t from-background via-[#343B32]/85 to-transparent"
         />
       </div>
 

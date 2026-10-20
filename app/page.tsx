@@ -135,58 +135,6 @@ export default function Page() {
               <span aria-hidden="true">·</span>
               <span>A tu ritmo</span>
             </div>
-
-            <a
-              href="/primera-etapa"
-              className="mx-auto mt-7 inline-flex max-w-full items-center justify-center rounded-full border border-primary/25 bg-white/70 px-5 py-3 text-sm font-semibold text-primary shadow-sm transition-colors hover:bg-white sm:text-base"
-            >
-              Podés conocer la Etapa 1 de forma gratuita <span className="ml-2" aria-hidden="true">→</span>
-            </a>
-          </div>
-        </section>
-
-        {/* MI HISTORIA */}
-        <section
-          aria-labelledby="mi-historia-title"
-          className="bg-[#f8f2e8] px-5 py-16 sm:py-20 md:py-24"
-        >
-          <div className="mx-auto max-w-3xl">
-            <div className="text-center">
-              <Handwritten>un puente entre dos mundos</Handwritten>
-              <h2
-                id="mi-historia-title"
-                className="mt-4 font-serif font-soft text-[2rem] leading-[1.1] text-balance text-[#3f3025] sm:text-[2.25rem] md:text-[2.75rem]"
-              >
-                Hola, soy Adrián.
-              </h2>
-            </div>
-
-            <div className="mx-auto mt-8 max-w-2xl space-y-5 text-[1.05rem] leading-[1.8] text-[#5b4737] sm:mt-10 sm:text-lg">
-              <p>
-                Hubo un momento de mi vida en el que perseguí metas completamente materiales. Tuve bastante éxito, pero estaba desconectado de mi ser y me sentía miserable en el camino.
-              </p>
-              <p>
-                Después viví una etapa de profunda conexión espiritual, descubrimiento, sanación y transformación. Pero también me encontré desconectado del mundo material, sin saber cómo integrar todo lo que estaba descubriendo en mi vida cotidiana.
-              </p>
-              <p className="font-serif text-xl leading-relaxed text-[#3f3025] sm:text-2xl">
-                Con el tiempo, construí un puente entre esos dos mundos.
-              </p>
-              <p>
-                Primero, para mí. Después, acompañando a otras personas a construir el suyo.
-              </p>
-              <p>
-                Así nació <strong className="font-semibold text-[#3f3025]">Coherencia Interior</strong>.
-              </p>
-              <p>
-                Un proceso simple y profundo para integrar lo mejor de ambos mundos: tu naturaleza espiritual y la vida que vivís en la Tierra.
-              </p>
-              <p>
-                Sin perderte en el camino ni desconectarte de la vida que ya construiste.
-              </p>
-              <p>
-                Aprendiendo a crear una vida más alineada con tu ser y tu alma y, sobre todo, a comprender y disfrutar tu propio proceso.
-              </p>
-            </div>
           </div>
         </section>
 
@@ -813,18 +761,19 @@ export default function Page() {
               className="mt-10 -mx-5 flex snap-x snap-mandatory gap-5 overflow-x-auto px-5 pb-5 [scrollbar-width:thin] [scrollbar-color:#9a8065_transparent] md:mx-0 md:gap-6 md:px-1"
             >
               {[
-                { src: '/testimonio-01.JPG', alt: 'Testimonio de una participante sobre la experiencia de Coherencia Interior' },
-                { src: '/testimonio-02.JPG', alt: 'Mensaje de agradecimiento de una participante' },
-                { src: '/testimonio-03.JPG', alt: 'Experiencia compartida por una participante del proceso' },
-                { src: '/testimonio-04.JPG', alt: 'Testimonio sobre los aprendizajes del proceso' },
-                { src: '/testimonio-05.JPG', alt: 'Mensaje de una persona que recorrió Coherencia Interior' },
-                { src: '/testimonio-06.JPG', alt: 'Experiencia personal compartida durante el proceso' },
-                { src: '/testimonio-07.JPG', alt: 'Testimonio de una participante sobre su recorrido interior' },
-                { src: '/testimonio-08.JPG', alt: 'Mensaje de agradecimiento por el acompañamiento' },
-                { src: '/testimonio-09.JPG', alt: 'Reflexión de una participante de Coherencia Interior' },
-                { src: '/testimonio-10.JPG', alt: 'Testimonio sobre la claridad y las herramientas recibidas' },
-                { src: '/testimonio-11.JPG', alt: 'Experiencia compartida por una persona que hizo el proceso' },
-                { src: '/testimonio-12.JPG', alt: 'Mensaje de una participante sobre su experiencia' },
+                { src: '/testimonios/testimonio-01.JPG', alt: 'Testimonio de una participante sobre la experiencia de Coherencia Interior' },
+                { src: '/testimonios/testimonio-02.JPG', alt: 'Mensaje de agradecimiento de una participante' },
+                { src: '/testimonios/testimonio-03.JPG', alt: 'Experiencia compartida por una participante del proceso' },
+                { src: '/testimonios/testimonio-04.JPG', alt: 'Testimonio sobre los aprendizajes del proceso' },
+                { src: '/testimonios/testimonio-05.JPG', alt: 'Mensaje de una persona que recorrió Coherencia Interior' },
+                { src: '/testimonios/testimonio-06.JPG', alt: 'Experiencia personal compartida durante el proceso' },
+                { src: '/testimonios/testimonio-07.JPG', alt: 'Testimonio de una participante sobre su recorrido interior' },
+                { src: '/testimonios/testimonio-08.JPG', alt: 'Mensaje de agradecimiento por el acompañamiento' },
+                { src: '/testimonios/testimonio-09.JPG', alt: 'Reflexión de una participante de Coherencia Interior' },
+                { src: '/testimonios/testimonio-10.JPG', alt: 'Testimonio sobre la claridad y las herramientas recibidas' },
+                { src: '/testimonios/testimonio-11.JPG', alt: 'Experiencia compartida por una persona que hizo el proceso' },
+                { src: '/testimonios/testimonio-12.JPG', alt: 'Mensaje de una participante sobre su experiencia' },
+                { src: '/testimonios/testimonio-13.JPG', alt: 'Testimonio adicional de Coherencia Interior' },
               ].map((item, index) => (
                 <figure
                   key={item.src}
@@ -956,18 +905,8 @@ export default function Page() {
               </p>
 
               <CtaLink href={HOTMART_URL} className="mt-7 w-full">
-                Continuar con Coherencia Interior · USD 77
+                Continuar con Coherencia Interior
               </CtaLink>
-
-              <a
-                href="https://pay.hotmart.com/U107070729F?off=x8qs4fsi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 flex w-full flex-col items-center justify-center rounded-xl border border-primary/25 bg-primary/[0.07] px-5 py-4 text-center font-semibold text-primary transition-colors hover:bg-primary/[0.12]"
-              >
-                <span>Bonificación hasta el 21 de noviembre · USD 55</span>
-                <span className="mt-1 text-sm font-normal">Acceder al precio promocional →</span>
-              </a>
             </div>
           </div>
         </section>
